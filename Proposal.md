@@ -69,7 +69,7 @@ Baseline for Comparison: We hope to aim for an accuracy of 70% or higher. This w
 
 5. Steps on how we will transform the raw data into the final form: 
 
-    **Cleaning and Preprocessing**: Check for and handle missing data, eliminate duplicate records, and unify formats from various sources.
+    **Cleaning and Preprocessing**: Check for and handle missing data, eliminate duplicate records, unify formats from various sources, and run ydata-profiling for EDA report.
 
     **Integration**: Combine different datasets using common identifiers such as company names or transaction dates.
 
