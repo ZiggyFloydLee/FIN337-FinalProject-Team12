@@ -74,4 +74,14 @@ Baseline for Comparison: We hope to aim for an accuracy of 70% or higher. This w
     **Aggregation**: Compile data into annual or quarterly figures for trend analysis.
 
 # Dashboard Setup
-1. 
+## Structure: 
+- Our initial report will be displayed along with our findings and conclusive results. Additionally, users will find input fields adjacent to a scatter plot that visualizes predictions. This dashboard will effectively produce predictied results related to the user inputs and accurately classify whether a firm is best suited for an IPO or SPAC. 
+## User Inputs: 
+- Year
+- Industry Sector
+- Market Capitalization
+- Profitability Metrics: ROA, ROE...etc
+- Funding Needs
+- Revenue Growth Rate
+## Output: 
+- Our dashboard will intake user inputs and utilize KNN nearest neighbors modeling to accurately classify whether a firm is best suited for a SPAC or IPO. Furthermore, we will visually represent this classification by plotting the firm's nearest neighbors on a scatter plot.  If the inputs strongly resemble characteristics associated with an IPO rather than a SPAC, the firm will be positioned close to its related entities. 
