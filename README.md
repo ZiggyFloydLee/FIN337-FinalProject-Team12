@@ -41,5 +41,4 @@ Baseline for Comparison: Historical averages of post-IPO performance for both SP
     **Integration**: Combine different datasets using common identifiers such as company names or transaction dates.
 
     **Aggregation**: Compile data into annual or quarterly figures for trend analysis.
-
-    
+   
