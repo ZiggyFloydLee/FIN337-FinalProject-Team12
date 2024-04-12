@@ -8,7 +8,7 @@ In our project, we aim to look at the IPO market observing traditional IPOs and 
 ## Research Question
 
 1. Broad Question:
-Our project focuses on the overall effectiveness and efficiency of different methods for companies to access public capital markets. Specifically, the debate might focus on understanding which method of going public provides the best long-term value for companies and investors, considering the recent surge in popularity of SPACs relative to the traditional IPO route.
+Our project aims to evaluate the effectiveness and efficiency of SPACs versus IPOs in accessing public capital markets, focusing on which method delivers better long-term value for companies and investors, especially given the recent surge in SPACs' popularity.
 
 Specific Research Question:
 - Performance Comparison: How do the long-term financial performances of companies that go public via SPACs compare to those that conduct traditional IPOs?
