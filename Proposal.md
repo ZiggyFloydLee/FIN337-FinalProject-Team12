@@ -16,7 +16,7 @@ Research Question:
 Specific Research Question:
 - Performance Comparison: How do the long-term financial performances of companies that go public via SPACs compare to those that conduct traditional IPOs?
 - Cost Analysis: What are the total costs associated with going public through a SPAC versus an IPO?
-- Predictive Modeling: Given a specific input of firm features, we can use KNN nearest neighbors to identify a similar firm that used either a SPAC or IPO
+- Predictive Modeling: Given a specific input of firm features, we can use KNN nearest neighbors to correctly classify a firm as best suited for a SPAC or IPO
 
 Measuremnt Variables: 
 - Market Capitalization
@@ -74,5 +74,4 @@ Baseline for Comparison: We hope to aim for an accuracy of 70% or higher. This w
     **Aggregation**: Compile data into annual or quarterly figures for trend analysis.
 
 # Dashboard Setup
-
 1. 
