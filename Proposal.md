@@ -26,7 +26,7 @@ Measuremnt Variables:
 
 ## Hypothesis
 
-- *Using KNN nearest neighbor analysis, we anticipate that the firm characteristics described in our measurment variables will significantly contribute to accurately predicting whether a firm is better suited for a SPAC or an IPO. Additionally, we hope to evelaute the total cost of going public via SPAC is lower when measured immediately post-IPO but higher when considering long-term performance metrics.*
+*Using KNN nearest neighbor analysis, we anticipate that the firm characteristics described in our measurment variables will significantly contribute to accurately predicting whether a firm is better suited for a SPAC or an IPO. Additionally, we hope to evelaute the total cost of going public via SPAC is lower when measured immediately post-IPO but higher when considering long-term performance metrics.*
 
 ## Prediction Metrics
 
