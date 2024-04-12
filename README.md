@@ -1,4 +1,4 @@
-# FIN 337: Team 12 Final Project Repo
+# FIN 377: Team 12 Final Project Repo
 ## By: Kevin Chen, Ziggy Lee, Ryan Thomas, Jinyi Xu
 
 This repository contains the full final project for FIN 377: Data Science for Finance.
@@ -41,4 +41,9 @@ Baseline for Comparison: Historical averages of post-IPO performance for both SP
     **Integration**: Combine different datasets using common identifiers such as company names or transaction dates.
 
     **Aggregation**: Compile data into annual or quarterly figures for trend analysis.
+<<<<<<< HEAD
    
+=======
+
+    
+>>>>>>> 6cf2b37ea256e3754d43d34b9510d478f40a9437
