@@ -1,4 +1,4 @@
-# FIN 337: Team 12 Final Project Repo
+# FIN 377: Team 12 Final Project Repo
 ## By: Kevin Chen, Ziggy Lee, Ryan Thomas, Jinyi Xu
 
 This repository contains the full final project for FIN 377: Data Science for Finance.
