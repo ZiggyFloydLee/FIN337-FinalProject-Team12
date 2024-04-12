@@ -5,7 +5,8 @@ This repository contains the full final project for FIN 377: Data Science for Fi
 
 In our project, we aim to look at the IPO market observing traditional IPOs and SPAC mergers. We analyze data from [Jay R. Ritter PhD](https://site.warrington.ufl.edu/ritter/) (University of Florida), [SPACInsider.com](https://www.spacinsider.com/), [wrds](https://wrds-www.wharton.upenn.edu/), stock market data, and SEC Filings(Form S-1 and Form 425). 
 
-# Research Question
+# Research Proposal: 
+# Predictive Modeling for Optimal Capital Market Selection: A Comparative Analysis of SPACs and IPOs
 
 Research Question:
 
@@ -34,11 +35,11 @@ Initial Statement:
 
 Metrics of Success:
 1. Accuracy: the proportion of correctly classified firms out of the total number of firms in the dataset. Maximizing this value will indicate the effectiveness of our model in making correct predictions.
-2. 
+2. Precision: measures the proportion of correctly classified SPAC or IPO firms out of all firms classified as SPAC or IPO. 
+3. Recall: measures the proportion of correctly classfied SPAC or IPO firms out of all actual SPAC or IPO firms. 
+4. F1 Score: This is the harmonic mean of recall and precision. A higher F1 score will indicate a better balance between the two measurments. 
 
-
-The primary metric of success could be the long-term stock price performance. Secondary metrics might include market capitalization growth, and financial health metrics such as EBITDA growth, or debt-to-equity ratios.
-Baseline for Comparison: Historical averages of post-IPO performance for both SPACs and IPOs as a baseline.
+Baseline for Comparison: We hope to aim for an accuracy of 70% or higher. This would demonstrate the added value of our predictive modeling approach. We also want our data to reflect historical averages of post-IPO performance for both SPACs and IPOs as a baseline.
 
 # Necessary Data
 
