@@ -26,7 +26,7 @@ Measuremnt Variables:
 
 ## Hypothesis
 
-- *Using KNN nearest neighbor analysis, we anticipate that the firm characteristics described in our measurment variables will significantly contribute to accurately predicting whether a firm is better suited for a SPAC or an IPO. Additionally, we hope to evelaute the total cost of going public via SPAC is lower when measured immediately post-IPO but higher when considering long-term performance metrics.*
+*Using KNN nearest neighbor analysis, we anticipate that the firm characteristics described in our measurment variables will significantly contribute to accurately predicting whether a firm is better suited for a SPAC or an IPO. Additionally, we hope to evelaute the total cost of going public via SPAC is lower when measured immediately post-IPO but higher when considering long-term performance metrics.*
 
 ## Prediction Metrics
 
@@ -55,15 +55,17 @@ Baseline for Comparison: We hope to aim for an accuracy of 70% or higher. This w
         - Financial ratios across every observation to compare firms
         - Cost structre analysis
         - Stock returns
+        - Market Capitalization
     - Variables we would like to have:
         - Success rate (measuered by performance after IPO)
         - Sector growth indicators (is a certain company taking advantage of favorable SPAC offerings?)
+        - Funding needs
 
 2. Currently, we have Data from Jay R. Ritter PhD on traditional IPOs, information from SPACInsider.com regarding SPAC transactions, access to stock market data, SEC Filings (Forms S-1, 425) and historical data available through WRDS. What we need is more detailed post-IPO/SPAC financial performance data, updated and comprehensive data on SPAC sponsors and outcomes and market context data for the sample period.
 
-3. 
+3. We plan to collect our data through Jay Ritter's research, wrds, SPACInsider.com, and CRSP
 
-4. 
+4. We plan to create an input folder that will contain any .csv files we cannot get directly though python packages. We anticipate the Jay Ritter research data to be one of these. We also plan to have an /output folder which will be used to translate outputs of one .ipynb to the successor.
 
 5. Steps on how we will transform the raw data into the final form: 
 
