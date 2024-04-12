@@ -43,7 +43,21 @@ Baseline for Comparison: We hope to aim for an accuracy of 70% or higher. This w
 
 # Necessary Data
 
-1. 
+1. The final dataset needs to contain all IPOs (traditional and SPAC) in at least the past 10-15 years--but ideally all available data. This would include firm characteristics (sector, relevent financial ratios, year, traditional vs SPAC IPO, etc.)
+    - An observation in our dataset will be an IPO
+    - The sample period will be all IPOs
+    - We anticipate some restructions in the sample surrounding availability of data. An example of this would be certain financial ratios not being recorded before a given year.
+    - Variables that are necessary for this exploration:
+        - Firm
+        - Year
+        - Sector
+        - Traditional IPO vs SPAC IPO
+        - Financial ratios across every observation to compare firms
+        - Cost structre analysis
+        - Stock returns
+    - Variables we would like to have:
+        - Success rate (measuered by performance after IPO)
+        - Sector growth indicators (is a certain company taking advantage of favorable SPAC offerings?)
 
 2. Currently, we have Data from Jay R. Ritter PhD on traditional IPOs, information from SPACInsider.com regarding SPAC transactions, access to stock market data, SEC Filings (Forms S-1, 425) and historical data available through WRDS. What we need is more detailed post-IPO/SPAC financial performance data, updated and comprehensive data on SPAC sponsors and outcomes and market context data for the sample period.
 
