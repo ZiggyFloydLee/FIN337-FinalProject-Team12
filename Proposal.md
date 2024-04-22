@@ -101,3 +101,7 @@ Baseline for Comparison: We hope to aim for an accuracy of 70% or higher. This w
 <img src="images/ProposalGraph1.png"/>
 
 - Exhibit 2: KNN Example
+<img src="images/KNN.png"/>
+
+- Exhibit 3: Linear Regression Example
+<img src="images/LinearRegression.png"/>
