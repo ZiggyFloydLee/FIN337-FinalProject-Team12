@@ -15,12 +15,9 @@ Research Question:
 
 Specific Research Question:
 - Performance Comparison: How do the long-term financial performances of companies that go public via SPACs compare to those that conduct traditional IPOs? 
-- Predictive Modeling:  
-1. **KNN**: KNN will be used to classify firms by comparing them to their 'nearest neighbors' in our dataset. The model will include an visual plot displaying the K nearest neighbors based on key variables. These nearest neighbors will help classify a firm as either an IPO or SPAC. This visualization aids in intuitively understanding how firms are grouped based on their characteristics and the delineation between SPACs and IPOs.
+- Predictive Modeling: Given a specific input of firm features, our objective is to classify a firm as best suited for a SPAC or IPO. We will test a variety of models, specifically logistic regression and KNN nearest neighbors to produce the model of best fit. Logistic regression will offer an effective approach for binary classification. Using the user inputs, we will predict the probability of belonging to either the class IPO or SPAC. The KNN model will offer a visualized plot with a number of K nearest neighbors based around the user inputs. Theses nearest neighbors will help classify a firm as either an IPO or SPAC. 
 
-2. **Logistic Regression**: Logistic regression will be employed for binary classification to predict whether a firm is better suited for a SPAC or an IPO. This model will estimate the probability of each outcome based on input features and provide insights into the influence of each feature through its coefficients, offering a straightforward and informative approach to classification. We will evaluate each model's performance using standard metrics such as accuracy, precision, recall, and the F1 score. Cross-validation techniques will be used to ensure that our findings are generalizable.
-
-Key Variables: 
+Measurement Variables: 
 - Market Capitalization
 - Growth Metrics: Revenue, Earnings, ROA...etc
 - Industry Sector
@@ -28,7 +25,7 @@ Key Variables:
 
 ## Hypothesis
 
-*Using KNN nearest neighbor analysis, we anticipate that the firm characteristics described in our measurement variables will significantly contribute to accurately predicting whether a firm is better suited for a SPAC or an IPO.*
+*Using KNN nearest neighbor analysis, we anticipate that the firm characteristics described in our measurement variables will significantly contribute to accurately predicting whether a firm is better suited for a SPAC or an IPO. Additionally, we hope to evaluate the total cost of going public via SPAC is lower when measured immediately post-IPO but higher when considering long-term performance metrics.*
 
 ## Prediction Metrics
 
@@ -95,11 +92,5 @@ Baseline for Comparison: We hope to aim for an accuracy of 70% or higher. This w
 
 
 # Graph Examples
-- Exhibit 1: Logistic Regression Example
-<img src="images/LogisticRegression.png"/>
 
-- Exhibit 2: KNN Example
-<img src="images/KNN.png"/>
-
-- Exhibit 3: Linear Regression Example
-<img src="images/LinearRegression.png"/>
+<img src="images/ProposalGraph1.png"/>
