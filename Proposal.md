@@ -14,9 +14,8 @@ Research Question:
  
 
 Specific Research Question:
-- Performance Comparison: How do the long-term financial performances of companies that go public via SPACs compare to those that conduct traditional IPOs?
-- Cost Analysis: What are the total costs associated with going public through a SPAC versus an IPO?
-- Predictive Modeling: Given a specific input of firm features, we can use KNN nearest neighbors to correctly classify a firm as best suited for a SPAC or IPO
+- Performance Comparison: How do the long-term financial performances of companies that go public via SPACs compare to those that conduct traditional IPOs? 
+- Predictive Modeling: Given a specific input of firm features, our objective is to classify a firm as best suited for a SPAC or IPO. We will test a variety of models, specifically logistic regression and KNN nearest neighbors to produce the model of best fit. Logistic regression will offer an effective approach for binary classification. Using the user inputs, we will predict the probability of belonging to either the class IPO or SPAC. The KNN model will offer a visualized plot with a number of K nearest neighbors based around the user inputs. Theses nearest neighbors will help classify a firm as either an IPO or SPAC. 
 
 Measurement Variables: 
 - Market Capitalization
