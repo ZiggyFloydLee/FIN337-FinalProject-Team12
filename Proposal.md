@@ -76,7 +76,7 @@ Baseline for Comparison: We hope to aim for an accuracy of 70% or higher. This w
 
     **Integration**: Combine different datasets using common identifiers such as company names or transaction dates.
 
-    **Aggregation**: Compile data into annual or quarterly figures for trend analysis.
+    **Aggregation**: Compile data into annual or quarterly figures for trend analysis. Determine the operations to apply to the data within each time interval, such as sum, average, minimum, maximum, or median.
 
 # Dashboard Setup
 ## Structure: 
