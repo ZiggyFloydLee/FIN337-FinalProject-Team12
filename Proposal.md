@@ -97,5 +97,7 @@ Baseline for Comparison: We hope to aim for an accuracy of 70% or higher. This w
 
 
 # Graph Examples
-
+- Exhibit 1: Logistic Regression Example
 <img src="images/ProposalGraph1.png"/>
+
+- Exhibit 2: KNN Example
