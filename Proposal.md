@@ -18,7 +18,6 @@ Specific Research Question:
 - Predictive Modeling:  
 1. **KNN**: KNN will be used to classify firms by comparing them to their 'nearest neighbors' in our dataset. The model will include an visual plot displaying the K nearest neighbors based on key variables. These nearest neighbors will help classify a firm as either an IPO or SPAC. This visualization aids in intuitively understanding how firms are grouped based on their characteristics and the delineation between SPACs and IPOs.
 
-- **Logistic Regression**: Logistic regression will be employed for binary classification to predict whether a firm is better suited for a SPAC or an IPO. This model will estimate the probability of each outcome based on input features and provide insights into the influence of each feature through its coefficients, offering a straightforward and informative approach to classification.
 2. **Logistic Regression**: Logistic regression will be employed for binary classification to predict whether a firm is better suited for a SPAC or an IPO. This model will estimate the probability of each outcome based on input features and provide insights into the influence of each feature through its coefficients, offering a straightforward and informative approach to classification. We will evaluate each model's performance using standard metrics such as accuracy, precision, recall, and the F1 score. Cross-validation techniques will be used to ensure that our findings are generalizable.
 
 Key Variables: 
