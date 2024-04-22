@@ -1,0 +1,7 @@
+# .gitignore for Final Project
+
+# compiled .py files (i dont think we have any)
+*.pyc
+
+# ignore .dta files (for the ccm_youngfirms)
+*.dta
