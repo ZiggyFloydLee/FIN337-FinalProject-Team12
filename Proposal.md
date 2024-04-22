@@ -62,6 +62,7 @@ Baseline for Comparison: We hope to aim for an accuracy of 70% or higher. This w
             - Adjusted growth in the above metrics to a industry growth marker
         - Sector growth indicators (is a certain company taking advantage of favorable SPAC offerings?)
         - Capital Raised through IPO (share price * shares sold)
+        - Number of Shares Issued (the total number of shares issued during the IPO)
 
 2. Currently, we have Data from Jay R. Ritter PhD on traditional IPOs, information from SPACInsider.com regarding SPAC transactions, access to stock market data, SEC Filings (Forms S-1, 425) and historical data available through WRDS. What we need is more detailed post-IPO/SPAC financial performance data, updated and comprehensive data on SPAC sponsors and outcomes and market context data for the sample period.
 
