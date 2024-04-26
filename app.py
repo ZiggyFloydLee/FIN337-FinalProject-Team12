@@ -33,7 +33,7 @@ col1, col2 = st.columns((1, 2))
 with col1:
     st.subheader("User Inputs")
     year = st.number_input('Year', min_value=2000, max_value=2018, value=2018)
-    industry_sector = st.selectbox('Industry Sector', options=data['sich'].unique())
+    industry_sector = st.selectbox('Industry Sector', options=data['naicsh'].unique())
     
 
 # Plots on the right column
