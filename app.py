@@ -40,7 +40,10 @@ with col1:
     st.subheader("User Inputs")
     year = st.number_input('Year', min_value=2000, max_value=2018, value=2018)
     industry_sector = st.selectbox('Industry Sector', options=data['Industry'].unique())
-    
+    market_cap = st.number_input('Market Capitalization', min_value=0, step=1, format='%d')
+    profitability_metrics = st.multiselect('Profitability Metrics', options=['ROA', 'ROE'])
+    funding_needs = st.number_input('Funding Needs', min_value=0, step=1, format='%d')
+    revenue_growth_rate = st.slider('Revenue Growth Rate', min_value=-100.0, max_value=100.0, value=0.0)
 
 # Plots on the right column
 with col2:
