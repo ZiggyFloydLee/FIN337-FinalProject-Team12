@@ -1,0 +1,544 @@
+adrr: Adjusted Dividend Rate Ratio
+curuscn: Current USCIN (Ultimate Parent Company Identification Number)
+ismod: Indicator for Share Modification
+scf: Statement of Cash Flows
+src: Source of Data
+apdedate: Date of Annual Report Preparation
+fdate: Fiscal Year-End Date
+pdate: Publication Date of Financial Data
+acchg: Accounting Changes
+accrt: Accounting Restatement Rate
+acdo: Account Deletions and Omissions
+aco: Accounting Changes - Other
+acodo: Account Deletions and Omissions - Other
+acominc: Accumulated Other Comprehensive Income (Loss)
+acox: Accrued Other Expenses
+acqao: Acquired Assets and Operations
+acqcshi: Acquired Cash and Cash Equivalents
+acqgdwl: Acquired Goodwill
+acqic: Acquired Intangibles
+acqintan: Acquired Intangible Assets
+acqinvt: Acquired Investments
+acqlntal: Acquired Long-Term Assets
+acqniintc: Acquired Non-Interest Income
+acqppe: Acquired Property, Plant, and Equipment
+acqsc: Acquired Short-Term Assets
+act: Current Assets
+afudcc: After-Tax Unusual Deferred Charges
+afudci: After-Tax Unusual Deferred Credits
+aldo: Allowance for Loan and Lease Losses
+am: Amortization
+amc: Amortization of Capitalized Software Costs
+ano: After-Tax Nonrecurring Charges
+ao: Assets - Other
+aocidergl: Accrued Other Comprehensive Income - Derivatives Gain/Loss
+aociother: Accrued Other Comprehensive Income - Other
+aocipen: Accrued Other Comprehensive Income - Pension
+aocisecgl: Accrued Other Comprehensive Income - Securities Gain/Loss
+aodo: Assets - Other, Discontinued Operations
+aol2: Assets Level 2
+aoloch: Assets - Other, Current
+aox: Assets - Other, Noncurrent
+ap: Accounts Payable
+apalch: Accounts Payable - Allocated
+aqa: Assets Acquired
+aqc: Assets Acquired under Capital Leases
+aqd: Assets Acquired and Divested
+aqeps: Assets Acquired for EPS
+aqi: Assets Acquired and Investments
+aqp: Assets Acquired under Purchase Agreements
+aqpl1: Assets Acquired for 10Q Prior Year
+aqs: Assets Acquired under Operating Leases
+arce: After-Tax Restructuring Charges and Effects
+arced: After-Tax Restructuring Charges and Effects - Discontinued Operations
+arceeps: After-Tax Restructuring Charges and Effects - Earnings Per Share
+at: Total Assets
+aul3: Assets Level 3
+bast: Build America Bonds - State
+bastr: Build America Bonds - U.S. Treasury
+billexce: Billings in Excess of Cost and Earnings
+bkvlps: Book Value per Share
+caps: Cash and Short-Term Investments
+capsft: Cash and Short-Term Investments - Footnote
+capx: Capital Expenditure
+capxv: Capital Expenditure - Voting
+cb: Cash Balances
+cbi: Contractual Based Investments
+cdvc: Cash Dividends
+ceiexbill: Cumulative Effect of Incentive Expense from Billable Excess
+ceq: Common/Ordinary Equity
+ceql: Common/Ordinary Equity - Liquidating Value
+ceqt: Common/Ordinary Equity - Total
+ch: Cash
+che: Cash - Ending
+chech: Cash - Equivalent Changes
+ci: Cash Increase
+cibegni: Cash Increase - Beginning
+cicurr: Current Cash Increase
+cidergl: Cumulative Unrealized Derivatives Gain/Loss
+cimii: Cash Interest Paid - Operating Activities
+ciother: Cash Interest Paid - Other
+cipen: Cash Interest Paid - Investing Activities
+cisecgl: Cumulative Unrealized Securities Gain/Loss
+citotal: Cash Interest Paid - Total
+cld2: Cumulative Preferred Dividends - Class 2
+cld3: Cumulative Preferred Dividends - Class 3
+cld4: Cumulative Preferred Dividends - Class 4
+cld5: Cumulative Preferred Dividends - Class 5
+clg: Current Liabilities - General
+cmp: Comprehensive Income
+cogs: Cost of Goods Sold
+cshfd: Cash Flow from Discontinued Operations
+cshi: Cash Increase (Decrease)
+csho: Common Shares Outstanding
+cshpri: Common Shares Primary
+cshr: Cash Restriction
+cshrt: Cash Ratio
+cstk: Common Stock
+cstkcv: Common Stock - Carrying Value
+cstke: Common Stock Equivalents
+dbi: Deferred Business Income
+dc: Deferred Charges
+dclo: Deferred Charges - Long-Term
+dcom: Deferred Compensation
+dcpstk: Deferred Common Stock
+dcs: Deferred Compensation - Stock
+dcvsr: Deferred Compensation - Stock Restricted
+dcvsub: Deferred Compensation - Stock Subsidiary
+dcvt: Deferred Convertible Securities
+dd: Depreciation and Depletion
+dd1: Depreciation - Depletion and Amortization
+dd2: Depreciation - Depletion and Amortization - Income Statement
+dd3: Depreciation - Depletion and Amortization - Balance Sheet
+dd4: Depreciation - Depletion and Amortization - Cash Flow
+dd5: Depreciation - Depletion and Amort
+derac: Deferred Accrued Expenses
+deralt: Deferred Alternative Minimum Tax Liability
+derhedgl: Deferred Hedge Gains/Losses
+derlc: Deferred Long-Term Charges
+derllt: Deferred Long-Term Liabilities
+dfs: Deferred Federal Income Tax Surcharge
+diladj: Diluted Adjusted Shares Outstanding
+dilavx: Dilution Adjustment for VX
+dlc: Debt, Long-Term Current
+dlcch: Debt, Long-Term Current - Change
+dltis: Debt, Long-Term Issued
+dlto: Debt, Long-Term Other
+dltp: Debt, Long-Term Participating
+dltr: Debt, Long-Term Redeemable
+dltt: Debt, Long-Term Total
+dm: Deferred Credits - Miscellaneous
+dn: Deferred Incomes
+do: Deferred Operations
+donr: Deferred Other Nonrecurring Charges
+dp: Depreciation and Amortization
+dpacre: Depreciation, Amortization, and Current Rents
+dpact: Depreciation, Amortization, and Current Taxes
+dpc: Deferred Policy Acquisition Costs
+dpret: Deferred Policyholder Reserves and Employee Benefits
+dpvieb: Deferred Policyholder Benefits, Value of Investment Earnings
+drc: Deferred Rent Credits
+drlt: Deferred Rent Long-Term
+ds: Deferred Savings
+dt: Deferred Taxes
+dtea: Deferred Taxes - Environmental Adjustments
+dted: Deferred Taxes - Environmental Depletion
+dteeps: Deferred Taxes - Environmental Earnings Per Share
+dtep: Deferred Taxes - Environmental Percentage
+dudd: Deferred Unearned Discounts
+dv: Deferred Value
+dvc: Deferred Value Charge
+dvintf: Deferred Variable Interest Income
+dvp: Deferred Variable Policy Charges
+dvpa: Deferred Variable Policy Acquisition Costs
+dvt: Deferred Variable Transaction Costs
+dxd2: Deferred Tax - Deferred Domestic Income Taxes
+dxd3: Deferred Tax - Deferred Dividends Received Deduction
+dxd4: Deferred Tax - Deferred Depletion
+dxd5: Deferred Tax - Deferred Depletion, Income Statement
+ebit: Earnings Before Interest and Taxes
+ebitda: Earnings Before Interest, Taxes, Depreciation, and Amortization
+emp: Employee
+epsfi: Earnings Per Share - Fully Diluted Including Extraordinary Items
+epsfx: Earnings Per Share - Fully Diluted Excluding Extraordinary Items
+epspi: Earnings Per Share - Fully Diluted Including Extraordinary Items
+epspx: Earnings Per Share - Basic Excluding Extraordinary Items
+esopct: Employee Stock Ownership Plan Contributions
+esopdlt: Employee Stock Ownership Plan Debt, Long-Term
+esopnr: Employee Stock Ownership Plan - Nonredeemable
+esopr: Employee Stock Ownership Plan - Redeemable
+esopt: Employee Stock Ownership Plan - Total
+esub: Employee Stock Unit - Beneficial Conversion
+esubc: Employee Stock Unit - Beneficial Conversion
+exre: Extraordinary Items
+fatb: Fixed Assets Turnover - Book Value
+fatc: Fixed Assets Turnover - Gross Book Value
+fate: Fixed Assets Turnover - Efficiency
+fatl: Fixed Assets Turnover - Lease
+fatn: Fixed Assets Turnover - Net
+fato: Fixed Assets Turnover - Operating
+fatp: Fixed Assets Turnover - Property
+fca: Free Cash Flow
+ffo: Funds from Operations
+fiao: Financing Activities, Other
+finaco: Financing Activities, Continuing Operations
+fincf: Financing Activities, Net Cash Flow
+finnp: Financing Activities, Nonrecurring
+finrev: Financing Activities, Recurring
+finxint: Financing Activities, Extraordinary Interest
+finxopr: Financing Activities, Extraordinary Operating
+fopo: Foreign Operations
+fopox: Foreign Operations - Extraordinary
+fopt: Foreign Operations - Temporary
+fsrco: FASB 142 - Restructuring Charge
+fsrct: FASB 142 - Restructuring Charge, Total
+fuseo: FASB 142 - Extraordinary Charge
+fuset: FASB 142 - Extraordinary Charge, Total
+gdwl: Goodwill
+gdwlam: Goodwill Amortization
+gdwlia: Goodwill Impairment Adjustment
+gdwlid: Goodwill - Discontinued Operations
+gdwlieps: Goodwill Impairment EPS
+gdwlip: Goodwill Impairment - Pre-Tax
+gla: Gross Lease Assets
+glcea: Gross Lease Cash Expenditure Adjustments
+glced: Gross Lease Cash Expenditure Differential
+glceeps: Gross Lease Cash Expenditure EPS
+glcep: Gross Lease Cash Expenditure Percentage
+gld: Gross Lease Discount
+gleps: Gross Lease Earnings Per Share
+gliv: Gross Lease Investment
+glp: Gross Lease Percentage
+gp: Gross Profit
+hedgegl: Hedge Gains/Losses
+ib: Income Before Extraordinary Items and Discontinued Operations
+ibadj: Income Before Extraordinary Items and Discontinued Operations - Adjusted
+ibc: Income Before Cumulative Effect
+ibcom: Income Before Cumulative Effect of Accounting Changes
+ibmii: Income Before Minority Interest and Income
+icapt: Interest Capitalization
+idit: Increase in Deferred Income Taxes
+intan: Intangible Assets
+intano: Intangible Assets - Other Noncurrent
+intc: Interest Capitalized
+intpn: Interest Paid - Net
+invch: Inventory Change
+invfg: Inventory Finished Goods
+invo: Inventory, Opening
+invrm: Inventory Raw Materials
+invt: Inventory, Total
+invwip: Inventory Work In Progress
+ipti: Income Pretax, Total
+irent: Implied Rent Expense
+itcb: Income Tax Current Benefit
+itcc: Income Tax Current Continuity
+itci: Income Tax Current Income
+ivaco: Investing Activities, Continuing Operations
+ivaeq: Investing Activities, Extraordinary
+ivao: Investing Activities, Other
+ivch: Investment Changes
+ivi: Investment Income
+ivncf: Investing Activities, Net Cash Flow
+ivst: Investment Securities
+ivstch: Investment Securities - Change
+lco: Liabilities - Current, Other
+lcox: Liabilities - Current, Other - Excluding Unearned Revenue
+lcoxdr: Liabilities - Current, Other - Including Unearned Revenue
+lct: Liabilities - Current, Total
+lifr: Liability/Asset, Netting
+lifrp: Liability/Asset, Netting, Post-Regulation
+lno: Liabilities Net of Operations
+lo: Liabilities - Other
+lol2: Liabilities Other, Long-Term
+loxdr: Liabilities Other, Excluding Deferred Revenue
+lqpl1: Liabilities and Equity - Level 1
+lse: Liabilities and Shareholders' Equity
+lt: Liabilities, Total
+lul3: Liabilities - Level 3
+mib: Minority Interest Before Minority Interest of Subsidiary
+mibn: Minority Interest - Nonredeemable
+mibt: Minority Interest - Temporary
+mii: Miscellaneous Income (Expense)
+mrc1 to mrc5: Miscellaneous Regulatory Charges, Levels 1 to 5
+mrct: Miscellaneous Regulatory Charges, Total
+mrcta: Miscellaneous Regulatory Charges - Total After Tax
+msa: Municipal Securities and Loans Available for Sale
+nco: Net Charge-Offs
+ni: Net Income
+niadj: Net Income - Adjusted
+nieci: Net Income from Continuing Operations
+niintpfc: Net Interest Income from Parent Company
+niintpfp: Net Interest Income from Parent Company, Preferred
+niit: Net Income from Total Operations
+nim: Net Interest Margin
+nipfc: Net Interest Paid - Financing Cash Flow
+nipfp: Net Interest Paid - Financing Cash Flow, Operating
+nopi: Net Operating Profit After Taxes
+nopio: Net Operating Profit After Taxes, Operating
+np: Net Profit
+nrtxt: Nonrecurring Income Taxes
+nrtxtd: Nonrecurring Income Taxes - Discontinued Operations
+nrtxteps: Nonrecurring Income Taxes - Earnings Per Share
+oancf: Operating Activities, Net Cash Flow
+ob: Other Benefits
+oiadp: Operating Income After Depreciation
+oibdp: Operating Income Before Depreciation
+opeps: Operating Earnings Per Share
+oprepsx: Operating Revenue Per Share Excluding Extraordinary Items
+optca: Option Cost of Goods Sold Adjustment
+optdr: Option Deferred Revenue Adjustment
+optex: Option Expense
+optexd: Option Expense - Discontinued Operations
+optfvgr: Option Fair Value of Goods Received
+optgr: Option Gross Revenue
+optlife: Option Life
+optosby: Option Outstanding Shares at Year End
+optosey: Option Outstanding Shares at Year Beginning
+optprcby: Option Price at Year End
+optprcca: Option Price at Year Beginning
+optprcex: Option Price Exercised
+optprcey: Option Price Exercisable
+optprcgr: Option Price Growth Rate
+optprcwa: Option Price Weighted Average
+optrfr: Option Revenue, Federal
+optvol: Option Volume
+pdvc: Parent Dividend in Common Stock
+pi: Pretax Income
+pidom: Pretax Income, Domestic
+pifo: Pretax Income, Foreign
+pll: Loss and Loss Adjustment Expense
+pnca: Pretax Net Operating Income of Consolidated Subsidiary
+pncad: Pretax Net Operating Income of Consolidated Subsidiary - Discontinued Operations
+pncaeps: Pretax Net Operating Income of Consolidated Subsidiary - Earnings Per Share
+pncia: Pretax Net Operating Income of Consolidated Subsidiary - As Reported
+pncid: Pretax Net Operating Income of Consolidated Subsidiary - Discontinued Operations
+pncieps: Pretax Net Operating Income of Consolidated Subsidiary - Earnings Per Share
+pncip: Pretax Net Operating Income of Consolidated Subsidiary - Pre-Tax
+pncwia: Pretax Net Operating Income of Consolidated Subsidiary - As Reported
+pncwid: Pretax Net Operating Income of Consolidated Subsidiary - Discontinued Operations
+pncwieps: Pretax Net Operating Income of Consolidated Subsidiary - Earnings Per Share
+pncwip: Pretax Net Operating Income of Consolidated Subsidiary - Pre-Tax
+pnrsho: Preferred Stock - Number of Shares
+ppegt: Property, Plant, and Equipment - Gross
+ppenc: Property, Plant, and Equipment - Net, Construction in Progress
+ppent: Property, Plant, and Equipment - Net
+ppevbb: Property, Plant, and Equipment - Valuation Allowance for Available-for-Sale Securities Before Tax
+ppeveb: Property, Plant, and Equipment - Valuation Allowance for Available-for-Sale Securities After Tax
+ppevo: Property, Plant, and Equipment - Valuation Allowance for Available-for-Sale Securities, Other
+ppevr: Property, Plant, and Equipment - Valuation Allowance for Available-for-Sale Securities, Reserve
+prca: Preferred Stock - Carrying Amount
+prcad: Preferred Stock - Carrying Amount, Discontinued Operations
+prcaeps: Preferred Stock - Carrying Amount, Earnings Per Share
+prsho: Preferred Stock - Number of Shares Outstanding
+prstkc: Preferred Stock - Conversion Ratio
+prstkcc: Preferred Stock - Conversion Ratio Common Class
+prstkpc: Preferred Stock - Conversion Price
+pstk: Preferred/Preference Stock (Capital) - Total
+pstkc: Preference Stock (Capital) - Total, Common Class
+pstkl: Preference Stock (Capital) - Liquidating Value
+pstkn: Preference Stock (Capital) - Nonredeemable
+pstkr: Preference Stock (Capital) - Redeemable
+pstkrv: Preference Stock (Capital) - Redeemable Value
+rca: Rent and Royalties, Capitalized
+rcd: Raw Charge-Offs
+rceps: Rent and Royalties, Capitalized - Earnings Per Share
+rcp: Raw Charge-Offs Provision
+rdip: Research and Development Expense
+rdipa: Research and Development Expense - Amortization
+rdipd: Research and Development Expense - Discontinued Operations
+rdipeps: Research and Development Expense - Earnings Per Share
+re: Retained Earnings
+rea: Retained Earnings Adjustments
+reajo: Retained Earnings Adjustments, Other
+recch: Realized Exchange Rate Changes
+recco: Realized Exchange Rate Changes - Other
+recd: Realized Exchange Rate Changes - Discontinued Operations
+rect: Realized Exchange Rate Changes - Total
+recta: Realized Exchange Rate Changes - Total After Tax
+rectr: Realized Exchange Rate Changes - Total, After Tax, Recurring
+recub: Realized Exchange Rate Changes - Unusual Benefits
+ret: Retained Earnings - Total
+reuna: Retained Earnings Unadjusted
+reunr: Retained Earnings Unrestricted
+revt: Revenue, Total
+rll: Reserve for Loan and Lease Losses
+rra: Retained Risk Amount
+rrd: Rate of Return on Debt
+rreps: Reserve for Realized Exchange Rate Changes - Earnings Per Share
+rrp: Rate of Return on Plan Assets
+rstche: Restricted Cash and Cash Equivalents
+rstchelt: Restricted Cash and Cash Equivalents - Temporary
+sale: Sales/Turnover/Revenue
+salepfc: Sales - Production Financing, Cumulative Effect
+salepfp: Sales - Production Financing, Prior Period
+scstkc: Stock Compensation - Cost Method
+seq: Shareholders' Equity
+seqo: Shareholders' Equity - Other
+seta: Selling, General, and Administrative - Total
+setd: Selling, General, and Administrative - Discontinued Operations
+seteps: Selling, General, and Administrative - Earnings Per Share
+setp: Selling, General, and Administrative - Total, Percentage
+siv: Shareholders' Investment Value
+spce: Stock Purchase Common Equity
+spced: Stock Purchase Common Equity - Depletion
+spceeps: Stock Purchase Common Equity - Earnings Per Share
+spi: Stock Purchase Income
+spid: Stock Purchase Income - Discontinued Operations
+spieps: Stock Purchase Income - Earnings Per Share
+spioa: Stock Purchase Income - Operating Activities
+spiop: Stock Purchase Income - Operating
+sppe: Stock Purchase Preferred Equity
+sppiv: Stock Purchase Preferred Income Value
+spstkc: Stock Purchase Common Stock
+sret: Sales Returns and Allowances
+sstk: Stock Splits
+stkco: Stockholders' Equity - Convertible
+stkcpa: Stockholders' Equity - Common Equity Portion
+tdc: Total Debt Current
+teq: Total Equity
+tfva: Total Fair Value Assets
+tfvce: Total Fair Value Changes
+tfvl: Total Fair Value Liabilities
+tie: Taxable Income - Total Income
+tii: Taxable Income - Interest Income
+tlcf: Total Liabilities and Capital Funds
+tsafc: Total Shareholders' Funds
+tstk: Total Stockholders
+tstkc: Total Stockholders - Common Class
+tstkn: Total Stockholders - Nonredeemable
+tstkp: Total Stockholders - Redeemable
+txach: Tax, Current - Cash
+txbco: Tax Benefit - Common Stock Issuance
+txbcof: Tax Benefit - Common Stock Issuance from Foreign Taxation
+txc: Tax, Current
+txdb: Tax, Deferred - Balance
+txdba: Tax, Deferred - Balance Adjustments
+txdbca: Tax, Deferred - Balance Current Adjustments
+txdbcl: Tax, Deferred - Balance Long Term Adjustments
+txdc: Tax, Deferred - Credits
+txdfed: Tax Deferred Federal
+txdfo: Tax Deferred Foreign
+txdi: Tax Deferred Income
+txditc: Tax Deferred Income Tax Credits
+txds: Tax Deferred State
+txfed: Tax, Deferred Federal
+txfo: Tax, Deferred Foreign
+txndb: Tax, Net Deferred Balance
+txndba: Tax, Net Deferred Balance Adjustments
+txndbl: Tax, Net Deferred Balance Long Term
+txndbr: Tax, Net Deferred Balance Recurring
+txo: Tax, Other
+txp: Tax Provision
+txpd: Tax, Provision Deferred
+txr: Tax, Refund
+txs: Tax, Special
+txt: Tax Rate
+txtubadjust: Taxable Income - Uncertain Tax Position Adjustment
+txtubbegin: Taxable Income - Uncertain Tax Position Beginning Balance
+txtubend: Taxable Income - Uncertain Tax Position Ending Balance
+txtubmax: Taxable Income - Uncertain Tax Position Maximum
+txtubmin: Taxable Income - Uncertain Tax Position Minimum
+txtubposdec: Taxable Income - Uncertain Tax Position Positive Decrease
+txtubposinc: Taxable Income - Uncertain Tax Position Positive Increase
+txtubpospdec: Taxable Income - Uncertain Tax Position Positive Periodic Decrease
+txtubpospinc: Taxable Income - Uncertain Tax Position Positive Periodic Increase
+txtubsettle: Taxable Income - Uncertain Tax Position Settlements
+txtubsoflimit: Taxable Income - Uncertain Tax Position Soft Limit
+txtubtxtr: Taxable Income - Uncertain Tax Position Tax Rate
+txtubxintbs: Taxable Income - Uncertain Tax Position Interest Basis
+txtubxintis: Taxable Income - Uncertain Tax Position Interest Income Statement
+txw: Tax, Withheld
+uaoloch: Unrealized AO LIFO Charge
+uaox: Unrealized AO LIFO Charge (Income)
+uapt: Unrealized AO LIFO Charge (Expense)
+ucaps: Unusual Compensation Adjustments
+uccons: Unusual Compensation Charges
+uceq: Unrealized Currency Exchange Gains (Losses)
+ucustad: Unusual Compensation Adjustments
+udcopres: Undistributed Capital in Presubsidiary
+udd: Undistributed Dividends - Domestic
+udfcc: Undistributed Foreign Currency Conversion Charges
+udmb: Undistributed Dividends - Minority Interests
+udolt: Undistributed Operating Lease Transactions
+udpco: Undistributed Parent Company's Profits
+udpfa: Undistributed Prior Period Adjustments
+udvp: Undistributed Value Placed
+ufretsd: Unusual Financing Repayment - Settlement Date
+ugi: Unusual Gains (Losses) - Income
+uinvt: Undistributed Investment
+ulcm: Unrealized Holding Gains (Losses) Current Market
+ulco: Unrealized Holding Gains (Losses) Other Than Trading, After-Tax
+uniami: Unrealized Investment Gains (Losses) - After Tax
+unopinc: Unusual Operating Income
+uois: Unusual Operating Income Statement
+uopi: Unusual Operating Profit (Loss)
+uopres: Unusual Operating Profit (Loss) - Reported
+updvp: Unrealized Prepaid Dividends
+upmcstk: Unpaid Minimum Capital Stock
+upmpf: Unpaid Minimum Preferred Stock
+upmpfs: Unpaid Minimum Preferred Stock - Foreign
+upmsubp: Unpaid Minimum Subordinated Preferred Stock
+upstk: Unpaid Minimum Stock
+upstkc: Unpaid Minimum Stock - Common Class
+upstksf: Unpaid Minimum Stock - Foreign
+urect: Unrealized Currency Translation Adjustment, Cumulative Translation Adjustment
+urectr: Unrealized Currency Translation Adjustment, Current Period
+urevub: Unrealized Revenue Units
+uspi: Unrealized Selling, General, and Administrative Expense
+ustdnc: Unrealized Securities Gains (Losses), Tax-Deferred
+usubdvp: Unpaid Subscribed Dividends on Preferred Stock
+usubpstk: Unpaid Subscribed Preferred Stock
+utfdoc: Unrealized Foreign Exchange Translation, Derivative Other Comprehensive Income
+utfosc: Unrealized Foreign Exchange Translation, Other Comprehensive Income
+utme: Unrealized Gains (Losses) from Trading Securities
+utxfed: Unrealized Tax Deferred Expenses
+uxinst: Unrealized Exchange Rate Adjustments
+uxintd: Unrealized Exchange Rate Adjustments - Derivative
+wcap: Working Capital
+wcapc: Working Capital Change
+wcapch: Working Capital Change - Increase (Decrease)
+wda: Withdrawals
+wdd: Weighted Diluted Shares Outstanding
+wdeps: Weighted Diluted EPS Excluding Extraordinary Items
+wdp: Weighted Diluted Shares Outstanding Plus Treasury Stock, Net
+xacc: Extraordinary Items and Accounting Changes
+xad: Extraordinary Dividends
+xi: Extraordinary Income/Charges
+xido: Extraordinary Income/Charges - Discontinued Operations
+xidoc: Extraordinary Income/Charges - Discontinued Operations, Cumulative Effect
+xinst: Extraordinary Income/Charges - Insurance
+xint: Extraordinary Interest
+xintd: Extraordinary Interest - Derivative
+xintopt: Extraordinary Interest - Option
+xlr: Extraordinary Losses and Gains - Realized
+xnbi: Extraordinary Nonrecurring Income/Charges
+xnins: Extraordinary Nonrecurring Insurance Income/Charges
+xopr: Extraordinary Operating Profit (Loss)
+xoptd: Extraordinary Options Expense, Discontinued Operations
+xopteps: Extraordinary Options Expense Per Share, Discontinued Operations
+xpp: Extraordinary Property Plant and Equipment
+xpr: Extraordinary Prior-Year Adjustments
+xrd: Extraordinary Write-Off of Deferred Tax Assets
+xrdp: Extraordinary Write-Off of Deferred Tax Assets - Provision
+xrent: Extraordinary Rental Expense
+xsga: Extraordinary Selling, General and Administrative Expenses
+xstfo: Extraordinary Securities Trading Gains (Losses)
+xuw: Extraordinary Utility Writedowns
+naicsh: NAICS Industry Code
+sich: Standard Industrial Classification (SIC) Code
+cshtr_c: Common Shares Traded, Cumulative
+dvpsp_c: Dividends Per Share - Common Stock, Cumulative
+dvpsx_c: Dividends Per Share - Excluding Extraordinary Items, Cumulative
+prcc_c: Price - Close - Cumulative
+prch_c: Price - High - Cumulative
+prcl_c: Price - Low - Cumulative
+adjex_c: Adjusted Exercise Price, Cumulative
+cshtr_f: Common Shares Traded - Foreign
+dvpsp_f: Dividends Per Share - Preferred/Preference Stock, Cumulative
+dvpsx_f: Dividends Per Share - Excluding Extraordinary Items, Cumulative - Foreign
+mkvalt: Market Value - Total
+prcc_f: Price - Close - Foreign
+prch_f: Price - High - Foreign
+prcl_f: Price - Low - Foreign
+adjex_f: Adjusted Exercise Price - Foreign
+rank: Data Point Ranking
