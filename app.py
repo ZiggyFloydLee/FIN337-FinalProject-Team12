@@ -54,4 +54,3 @@ with col2:
         plt.title('Histogram of Market Cap')
         st.pyplot(fig)
 
-
