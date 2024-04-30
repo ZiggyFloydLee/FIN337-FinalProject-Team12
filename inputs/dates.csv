@@ -1,0 +1,793 @@
+,SPAC IPO ,Date of IPO,IPO name
+0,Welsbach Technology Metals Acquisition Corp.,12/27/2021,Arogo Capital Acq
+1,Gardiner Healthcare Acquisitions Corp.,12/21/2021,Larkspur Health Acquisition Co
+2,Gardiner Healthcare Acquisitions Corp.,12/21/2021,Sagaliam Acquisition Corp
+3,Larkspur Health Acquisition Corp.,12/20/2021,NorthView Acquisition Corp
+4,Sagaliam Acquisition Corp.,12/20/2021,NorthView Acquisition Corp
+5,NorthView Acquisition Corp.,12/20/2021,NorthView Acquisition Corp
+6,Revelstone Capital Acquisition Corp.,12/16/2021,Ault Disruptive Technologies C
+7,Revelstone Capital Acquisition Corp.,12/16/2021,CF Acquisition Corp. VII
+8,Revelstone Capital Acquisition Corp.,12/16/2021,FTAC Emerald Acquisition Corp
+9,Revelstone Capital Acquisition Corp.,12/16/2021,Immix Biopharma Inc
+10,Revelstone Capital Acquisition Corp.,12/16/2021,Nuveen Variable Rate Preferred
+11,Revelstone Capital Acquisition Corp.,12/16/2021,Spree Acquisition Corp. 1 Ltd
+12,AP Acquisition Corp.,12/16/2021,Ault Disruptive Technologies C
+13,AP Acquisition Corp.,12/16/2021,CF Acquisition Corp. VII
+14,AP Acquisition Corp.,12/16/2021,FTAC Emerald Acquisition Corp
+15,AP Acquisition Corp.,12/16/2021,Immix Biopharma Inc
+16,AP Acquisition Corp.,12/16/2021,Nuveen Variable Rate Preferred
+17,AP Acquisition Corp.,12/16/2021,Spree Acquisition Corp. 1 Ltd
+18,CF Acquisition Corp. VII,12/15/2021,Ahren Acquisition Corp.
+19,CF Acquisition Corp. VII,12/15/2021,Battery Future Acquisition Cor
+20,CF Acquisition Corp. VII,12/15/2021,EVe Mobility Acquisition Corp
+21,CF Acquisition Corp. VII,12/15/2021,Genenta Science S.p.A.
+22,CF Acquisition Corp. VII,12/15/2021,Investcorp Europe Acquisition
+23,CF Acquisition Corp. VII,12/15/2021,Pearl Holdings Acquisition Cor
+24,CF Acquisition Corp. VII,12/15/2021,Samsara Inc
+25,CF Acquisition Corp. VII,12/15/2021,Swiftmerge Acquisition Corp
+26,Ault Disruptive Technologies Corp.,12/15/2021,Ahren Acquisition Corp.
+27,Ault Disruptive Technologies Corp.,12/15/2021,Battery Future Acquisition Cor
+28,Ault Disruptive Technologies Corp.,12/15/2021,EVe Mobility Acquisition Corp
+29,Ault Disruptive Technologies Corp.,12/15/2021,Genenta Science S.p.A.
+30,Ault Disruptive Technologies Corp.,12/15/2021,Investcorp Europe Acquisition
+31,Ault Disruptive Technologies Corp.,12/15/2021,Pearl Holdings Acquisition Cor
+32,Ault Disruptive Technologies Corp.,12/15/2021,Samsara Inc
+33,Ault Disruptive Technologies Corp.,12/15/2021,Swiftmerge Acquisition Corp
+34,FTAC Emerald Acquisition Corp.,12/15/2021,Ahren Acquisition Corp.
+35,FTAC Emerald Acquisition Corp.,12/15/2021,Battery Future Acquisition Cor
+36,FTAC Emerald Acquisition Corp.,12/15/2021,EVe Mobility Acquisition Corp
+37,FTAC Emerald Acquisition Corp.,12/15/2021,Genenta Science S.p.A.
+38,FTAC Emerald Acquisition Corp.,12/15/2021,Investcorp Europe Acquisition
+39,FTAC Emerald Acquisition Corp.,12/15/2021,Pearl Holdings Acquisition Cor
+40,FTAC Emerald Acquisition Corp.,12/15/2021,Samsara Inc
+41,FTAC Emerald Acquisition Corp.,12/15/2021,Swiftmerge Acquisition Corp
+42,Spree Acquisition Corp. 1 Ltd,12/15/2021,Ahren Acquisition Corp.
+43,Spree Acquisition Corp. 1 Ltd,12/15/2021,Battery Future Acquisition Cor
+44,Spree Acquisition Corp. 1 Ltd,12/15/2021,EVe Mobility Acquisition Corp
+45,Spree Acquisition Corp. 1 Ltd,12/15/2021,Genenta Science S.p.A.
+46,Spree Acquisition Corp. 1 Ltd,12/15/2021,Investcorp Europe Acquisition
+47,Spree Acquisition Corp. 1 Ltd,12/15/2021,Pearl Holdings Acquisition Cor
+48,Spree Acquisition Corp. 1 Ltd,12/15/2021,Samsara Inc
+49,Spree Acquisition Corp. 1 Ltd,12/15/2021,Swiftmerge Acquisition Corp
+50,Swiftmerge Acquisition Corp.,12/14/2021,Fresh Vine Wine Inc
+51,Swiftmerge Acquisition Corp.,12/14/2021,Kairous Acquisition Corp Ltd
+52,Swiftmerge Acquisition Corp.,12/14/2021,Sidus Space Inc
+53,EVe Mobility Acquisition Corp.,12/14/2021,Fresh Vine Wine Inc
+54,EVe Mobility Acquisition Corp.,12/14/2021,Kairous Acquisition Corp Ltd
+55,EVe Mobility Acquisition Corp.,12/14/2021,Sidus Space Inc
+56,Pearl Holdings Acquisition Corp.,12/14/2021,Fresh Vine Wine Inc
+57,Pearl Holdings Acquisition Corp.,12/14/2021,Kairous Acquisition Corp Ltd
+58,Pearl Holdings Acquisition Corp.,12/14/2021,Sidus Space Inc
+59,Investcorp Europe Acquisition Corp. I,12/14/2021,Fresh Vine Wine Inc
+60,Investcorp Europe Acquisition Corp. I,12/14/2021,Kairous Acquisition Corp Ltd
+61,Investcorp Europe Acquisition Corp. I,12/14/2021,Sidus Space Inc
+62,Ahren Acquisition Corp.,12/14/2021,Fresh Vine Wine Inc
+63,Ahren Acquisition Corp.,12/14/2021,Kairous Acquisition Corp Ltd
+64,Ahren Acquisition Corp.,12/14/2021,Sidus Space Inc
+65,Battery Future Acquisition Corp.,12/14/2021,Fresh Vine Wine Inc
+66,Battery Future Acquisition Corp.,12/14/2021,Kairous Acquisition Corp Ltd
+67,Battery Future Acquisition Corp.,12/14/2021,Sidus Space Inc
+68,Alpha Star Acquisition Corp.,12/13/2021,Alpha Star Acquisition Corp
+69,Alpha Star Acquisition Corp.,12/13/2021,BurTech Acquisition Corp.
+70,Kairous Acquisition Corp. Ltd.,12/13/2021,Alpha Star Acquisition Corp
+71,Kairous Acquisition Corp. Ltd.,12/13/2021,BurTech Acquisition Corp.
+72,BurTech Acquisition Corp.,12/10/2021,Athena Technology Acquisition
+73,BurTech Acquisition Corp.,12/10/2021,Financial Strategies Acquisiti
+74,BurTech Acquisition Corp.,12/10/2021,Forbion European Acquisition C
+75,BurTech Acquisition Corp.,12/10/2021,Growth for Good Acquisition Co
+76,BurTech Acquisition Corp.,12/10/2021,Healthcare AI Acquisition Corp
+77,BurTech Acquisition Corp.,12/10/2021,Power & Digital Infrastructure
+78,BurTech Acquisition Corp.,12/10/2021,Southport Acquisition Corp
+79,BurTech Acquisition Corp.,12/10/2021,Trajectory Alpha Acquisition C
+80,TLGY Acquisition Corp.,11/30/2021,Canna-Global Acquisition Corp
+81,Capitalworks Emerging Markets Acquisition Corp.,11/30/2021,Canna-Global Acquisition Corp
+82,Roth CH Acquisition V Co.,11/30/2021,Canna-Global Acquisition Corp
+83,PROOF Acquisition Corp. I,11/30/2021,Canna-Global Acquisition Corp
+84,Beard Energy Transition Acquisition Corp.,11/23/2021,Mana Capital Acquisition Corp
+85,Beard Energy Transition Acquisition Corp.,11/23/2021,Vahanna Tech Edge Acq I
+86,Everest Consolidator Acquisition Corp.,11/23/2021,Mana Capital Acquisition Corp
+87,Everest Consolidator Acquisition Corp.,11/23/2021,Vahanna Tech Edge Acq I
+88,Vahanna Tech Edge Acquisition I Corp.,11/23/2021,Mana Capital Acquisition Corp
+89,Vahanna Tech Edge Acquisition I Corp.,11/23/2021,Vahanna Tech Edge Acq I
+90,8i Acquisition 2 Corp.,11/22/2021,8i Acquisition 2 Corp
+91,8i Acquisition 2 Corp.,11/22/2021,Legato Merger Corp II
+92,Mana Capital Acquisition Corp.,11/22/2021,8i Acquisition 2 Corp
+93,Mana Capital Acquisition Corp.,11/22/2021,Legato Merger Corp II
+94,Legato Merger Corp. II,11/22/2021,8i Acquisition 2 Corp
+95,Legato Merger Corp. II,11/22/2021,Legato Merger Corp II
+96,FTAC Zeus Acquisition Corp.,11/18/2021,Arisz Acquisition Corp.
+97,FTAC Zeus Acquisition Corp.,11/18/2021,"Sweetgreen, Inc."
+98,FTAC Zeus Acquisition Corp.,11/18/2021,bleuacacia ltd
+99,Crescera Capital Acquisition Corp.,11/18/2021,Arisz Acquisition Corp.
+100,Crescera Capital Acquisition Corp.,11/18/2021,"Sweetgreen, Inc."
+101,Crescera Capital Acquisition Corp.,11/18/2021,bleuacacia ltd
+102,InFinT Acquisition Corp.,11/18/2021,Arisz Acquisition Corp.
+103,InFinT Acquisition Corp.,11/18/2021,"Sweetgreen, Inc."
+104,InFinT Acquisition Corp.,11/18/2021,bleuacacia ltd
+105,Infinite Acquisition Corp.,11/18/2021,Arisz Acquisition Corp.
+106,Infinite Acquisition Corp.,11/18/2021,"Sweetgreen, Inc."
+107,Infinite Acquisition Corp.,11/18/2021,bleuacacia ltd
+108,ALSP Orchid Acquisition Corp. I,11/18/2021,Arisz Acquisition Corp.
+109,ALSP Orchid Acquisition Corp. I,11/18/2021,"Sweetgreen, Inc."
+110,ALSP Orchid Acquisition Corp. I,11/18/2021,bleuacacia ltd
+111,bleuacacia Ltd.,11/17/2021,"Braze, Inc."
+112,bleuacacia Ltd.,11/17/2021,Iris Energy Ltd
+113,bleuacacia Ltd.,11/17/2021,LF Capital Acquisition Corp II
+114,bleuacacia Ltd.,11/17/2021,Nabors Energy Transition Corp.
+115,bleuacacia Ltd.,11/17/2021,Seaport Global Acquisition II
+116,bleuacacia Ltd.,11/17/2021,ShoulderUP Technology Acquisit
+117,bleuacacia Ltd.,11/17/2021,Sono Group N.V.
+118,bleuacacia Ltd.,11/17/2021,"UserTesting, Inc."
+119,Seaport Global Acquisition II Corp.,11/17/2021,"Braze, Inc."
+120,Seaport Global Acquisition II Corp.,11/17/2021,Iris Energy Ltd
+121,Seaport Global Acquisition II Corp.,11/17/2021,LF Capital Acquisition Corp II
+122,Seaport Global Acquisition II Corp.,11/17/2021,Nabors Energy Transition Corp.
+123,Seaport Global Acquisition II Corp.,11/17/2021,Seaport Global Acquisition II
+124,Seaport Global Acquisition II Corp.,11/17/2021,ShoulderUP Technology Acquisit
+125,Seaport Global Acquisition II Corp.,11/17/2021,Sono Group N.V.
+126,Seaport Global Acquisition II Corp.,11/17/2021,"UserTesting, Inc."
+127,Arisz Acquisition Corp.,11/17/2021,"Braze, Inc."
+128,Arisz Acquisition Corp.,11/17/2021,Iris Energy Ltd
+129,Arisz Acquisition Corp.,11/17/2021,LF Capital Acquisition Corp II
+130,Arisz Acquisition Corp.,11/17/2021,Nabors Energy Transition Corp.
+131,Arisz Acquisition Corp.,11/17/2021,Seaport Global Acquisition II
+132,Arisz Acquisition Corp.,11/17/2021,ShoulderUP Technology Acquisit
+133,Arisz Acquisition Corp.,11/17/2021,Sono Group N.V.
+134,Arisz Acquisition Corp.,11/17/2021,"UserTesting, Inc."
+135,Nabors Energy Transition Corp.,11/16/2021,Energem Corp
+136,ShoulderUp Technology Acquisition Corp.,11/16/2021,Energem Corp
+137,LF Capital Acquisition Corp. II,11/16/2021,Energem Corp
+138,Integrated Rail & Resources Acquisition Corp.,11/11/2021,Backblaze Inc
+139,Integrated Rail & Resources Acquisition Corp.,11/11/2021,HeartBeam Inc
+140,Integrated Rail & Resources Acquisition Corp.,11/11/2021,Kidpik Corp
+141,Integrated Rail & Resources Acquisition Corp.,11/11/2021,LAMF Global Ventures Corp I
+142,Integrated Rail & Resources Acquisition Corp.,11/11/2021,Lulu's Fashion Lounge Holdings
+143,Integrated Rail & Resources Acquisition Corp.,11/11/2021,"Tivic Health Systems, Inc."
+144,Integrated Rail & Resources Acquisition Corp.,11/11/2021,VMG Consumer Acquisition Corp
+145,Integrated Rail & Resources Acquisition Corp.,11/11/2021,Vaxxinity Inc
+146,Integrated Rail & Resources Acquisition Corp.,11/11/2021,Weave Communications Inc
+147,Integrated Rail & Resources Acquisition Corp.,11/11/2021,"Winc, Inc."
+148,Mountain Crest Acquisition Corp. V,11/11/2021,Backblaze Inc
+149,Mountain Crest Acquisition Corp. V,11/11/2021,HeartBeam Inc
+150,Mountain Crest Acquisition Corp. V,11/11/2021,Kidpik Corp
+151,Mountain Crest Acquisition Corp. V,11/11/2021,LAMF Global Ventures Corp I
+152,Mountain Crest Acquisition Corp. V,11/11/2021,Lulu's Fashion Lounge Holdings
+153,Mountain Crest Acquisition Corp. V,11/11/2021,"Tivic Health Systems, Inc."
+154,Mountain Crest Acquisition Corp. V,11/11/2021,VMG Consumer Acquisition Corp
+155,Mountain Crest Acquisition Corp. V,11/11/2021,Vaxxinity Inc
+156,Mountain Crest Acquisition Corp. V,11/11/2021,Weave Communications Inc
+157,Mountain Crest Acquisition Corp. V,11/11/2021,"Winc, Inc."
+158,LAMF Global Ventures Corp. I,11/10/2021,Arena Fortify Acquisition Corp
+159,LAMF Global Ventures Corp. I,11/10/2021,Ascendant Digital Acquisition
+160,LAMF Global Ventures Corp. I,11/10/2021,Blockchain Coinvestors Acquisi
+161,LAMF Global Ventures Corp. I,11/10/2021,Bluejay Diagnostics Inc
+162,LAMF Global Ventures Corp. I,11/10/2021,CI&T Inc
+163,LAMF Global Ventures Corp. I,11/10/2021,Chain Bridge I
+164,LAMF Global Ventures Corp. I,11/10/2021,Expensify Inc
+165,LAMF Global Ventures Corp. I,11/10/2021,RCF Acquisition Corp
+166,LAMF Global Ventures Corp. I,11/10/2021,Rivian Automotive Inc
+167,VMG Consumer Acquisition Corp.,11/10/2021,Arena Fortify Acquisition Corp
+168,VMG Consumer Acquisition Corp.,11/10/2021,Ascendant Digital Acquisition
+169,VMG Consumer Acquisition Corp.,11/10/2021,Blockchain Coinvestors Acquisi
+170,VMG Consumer Acquisition Corp.,11/10/2021,Bluejay Diagnostics Inc
+171,VMG Consumer Acquisition Corp.,11/10/2021,CI&T Inc
+172,VMG Consumer Acquisition Corp.,11/10/2021,Chain Bridge I
+173,VMG Consumer Acquisition Corp.,11/10/2021,Expensify Inc
+174,VMG Consumer Acquisition Corp.,11/10/2021,RCF Acquisition Corp
+175,VMG Consumer Acquisition Corp.,11/10/2021,Rivian Automotive Inc
+176,Vision Sensing Acquisition Corp.,10/29/2021,Airsculpt Technologies Inc
+177,Vision Sensing Acquisition Corp.,10/29/2021,AltEnergy Acquisition Corp
+178,Vision Sensing Acquisition Corp.,10/29/2021,Arbor Rapha Capital Bioholding
+179,Vision Sensing Acquisition Corp.,10/29/2021,Aura Biosciences Inc
+180,Vision Sensing Acquisition Corp.,10/29/2021,Biofrontera Inc
+181,Vision Sensing Acquisition Corp.,10/29/2021,Cactus Acquisition Corp 1 Ltd
+182,Vision Sensing Acquisition Corp.,10/29/2021,Entrada Therapeutics Inc
+183,Vision Sensing Acquisition Corp.,10/29/2021,Hireright Holdings Corp
+184,Vision Sensing Acquisition Corp.,10/29/2021,Project Energy Reimagined Acqu
+185,Vision Sensing Acquisition Corp.,10/29/2021,SDCL EDGE Acquisition Corp
+186,Vision Sensing Acquisition Corp.,10/29/2021,Sonendo Inc
+187,Vision Sensing Acquisition Corp.,10/29/2021,Udemy Inc
+188,SDCL Edge Acquisition Corp.,10/28/2021,Anthemis Digital Acquisitions
+189,SDCL Edge Acquisition Corp.,10/28/2021,Blackstone Secured Lending Fun
+190,SDCL Edge Acquisition Corp.,10/28/2021,Fluence Energy Inc
+191,SDCL Edge Acquisition Corp.,10/28/2021,Focus Impact Acquisition Corp
+192,SDCL Edge Acquisition Corp.,10/28/2021,GlobalFoundries Inc
+193,SDCL Edge Acquisition Corp.,10/28/2021,Perception Capital Corp II
+194,SDCL Edge Acquisition Corp.,10/28/2021,Seaport Calibre Materials Acqu
+195,SDCL Edge Acquisition Corp.,10/28/2021,Solo Brands Inc
+196,Project Energy Reimagined Acquisition Corp.,10/28/2021,Anthemis Digital Acquisitions
+197,Project Energy Reimagined Acquisition Corp.,10/28/2021,Blackstone Secured Lending Fun
+198,Project Energy Reimagined Acquisition Corp.,10/28/2021,Fluence Energy Inc
+199,Project Energy Reimagined Acquisition Corp.,10/28/2021,Focus Impact Acquisition Corp
+200,Project Energy Reimagined Acquisition Corp.,10/28/2021,GlobalFoundries Inc
+201,Project Energy Reimagined Acquisition Corp.,10/28/2021,Perception Capital Corp II
+202,Project Energy Reimagined Acquisition Corp.,10/28/2021,Seaport Calibre Materials Acqu
+203,Project Energy Reimagined Acquisition Corp.,10/28/2021,Solo Brands Inc
+204,Cactus Acquisition Corp. 1 Ltd.,10/28/2021,Anthemis Digital Acquisitions
+205,Cactus Acquisition Corp. 1 Ltd.,10/28/2021,Blackstone Secured Lending Fun
+206,Cactus Acquisition Corp. 1 Ltd.,10/28/2021,Fluence Energy Inc
+207,Cactus Acquisition Corp. 1 Ltd.,10/28/2021,Focus Impact Acquisition Corp
+208,Cactus Acquisition Corp. 1 Ltd.,10/28/2021,GlobalFoundries Inc
+209,Cactus Acquisition Corp. 1 Ltd.,10/28/2021,Perception Capital Corp II
+210,Cactus Acquisition Corp. 1 Ltd.,10/28/2021,Seaport Calibre Materials Acqu
+211,Cactus Acquisition Corp. 1 Ltd.,10/28/2021,Solo Brands Inc
+212,AltEnergy Acquisition Corp.,10/28/2021,Anthemis Digital Acquisitions
+213,AltEnergy Acquisition Corp.,10/28/2021,Blackstone Secured Lending Fun
+214,AltEnergy Acquisition Corp.,10/28/2021,Fluence Energy Inc
+215,AltEnergy Acquisition Corp.,10/28/2021,Focus Impact Acquisition Corp
+216,AltEnergy Acquisition Corp.,10/28/2021,GlobalFoundries Inc
+217,AltEnergy Acquisition Corp.,10/28/2021,Perception Capital Corp II
+218,AltEnergy Acquisition Corp.,10/28/2021,Seaport Calibre Materials Acqu
+219,AltEnergy Acquisition Corp.,10/28/2021,Solo Brands Inc
+220,Arbor Rapha Capital Bioholdings Corp. I,10/28/2021,Anthemis Digital Acquisitions
+221,Arbor Rapha Capital Bioholdings Corp. I,10/28/2021,Blackstone Secured Lending Fun
+222,Arbor Rapha Capital Bioholdings Corp. I,10/28/2021,Fluence Energy Inc
+223,Arbor Rapha Capital Bioholdings Corp. I,10/28/2021,Focus Impact Acquisition Corp
+224,Arbor Rapha Capital Bioholdings Corp. I,10/28/2021,GlobalFoundries Inc
+225,Arbor Rapha Capital Bioholdings Corp. I,10/28/2021,Perception Capital Corp II
+226,Arbor Rapha Capital Bioholdings Corp. I,10/28/2021,Seaport Calibre Materials Acqu
+227,Arbor Rapha Capital Bioholdings Corp. I,10/28/2021,Solo Brands Inc
+228,Perception Capital Corp. II,10/27/2021,Arteris Inc
+229,Perception Capital Corp. II,10/27/2021,Deep Medicine Acquisition Corp
+230,Perception Capital Corp. II,10/27/2021,Informatica Inc
+231,Perception Capital Corp. II,10/27/2021,Innovative International Acqui
+232,Perception Capital Corp. II,10/27/2021,LAVA Medtech Acquisition Corp
+233,Perception Capital Corp. II,10/27/2021,MainStay CBRE Global Infrastru
+234,Perception Capital Corp. II,10/27/2021,Marpai Inc
+235,Perception Capital Corp. II,10/27/2021,OPY Acquisition Corp I
+236,Perception Capital Corp. II,10/27/2021,Pyrophyte Acquisition Corp
+237,Perception Capital Corp. II,10/27/2021,Rent The Runway Inc
+238,Perception Capital Corp. II,10/27/2021,TKB Critical Technologies 1
+239,Focus Impact Acquisition Corp.,10/27/2021,Arteris Inc
+240,Focus Impact Acquisition Corp.,10/27/2021,Deep Medicine Acquisition Corp
+241,Focus Impact Acquisition Corp.,10/27/2021,Informatica Inc
+242,Focus Impact Acquisition Corp.,10/27/2021,Innovative International Acqui
+243,Focus Impact Acquisition Corp.,10/27/2021,LAVA Medtech Acquisition Corp
+244,Focus Impact Acquisition Corp.,10/27/2021,MainStay CBRE Global Infrastru
+245,Focus Impact Acquisition Corp.,10/27/2021,Marpai Inc
+246,Focus Impact Acquisition Corp.,10/27/2021,OPY Acquisition Corp I
+247,Focus Impact Acquisition Corp.,10/27/2021,Pyrophyte Acquisition Corp
+248,Focus Impact Acquisition Corp.,10/27/2021,Rent The Runway Inc
+249,Focus Impact Acquisition Corp.,10/27/2021,TKB Critical Technologies 1
+250,Seaport Calibre Materials Acquisition Corp.,10/27/2021,Arteris Inc
+251,Seaport Calibre Materials Acquisition Corp.,10/27/2021,Deep Medicine Acquisition Corp
+252,Seaport Calibre Materials Acquisition Corp.,10/27/2021,Informatica Inc
+253,Seaport Calibre Materials Acquisition Corp.,10/27/2021,Innovative International Acqui
+254,Seaport Calibre Materials Acquisition Corp.,10/27/2021,LAVA Medtech Acquisition Corp
+255,Seaport Calibre Materials Acquisition Corp.,10/27/2021,MainStay CBRE Global Infrastru
+256,Seaport Calibre Materials Acquisition Corp.,10/27/2021,Marpai Inc
+257,Seaport Calibre Materials Acquisition Corp.,10/27/2021,OPY Acquisition Corp I
+258,Seaport Calibre Materials Acquisition Corp.,10/27/2021,Pyrophyte Acquisition Corp
+259,Seaport Calibre Materials Acquisition Corp.,10/27/2021,Rent The Runway Inc
+260,Seaport Calibre Materials Acquisition Corp.,10/27/2021,TKB Critical Technologies 1
+261,Anthemis Digital Acquisitions I Corp.,10/27/2021,Arteris Inc
+262,Anthemis Digital Acquisitions I Corp.,10/27/2021,Deep Medicine Acquisition Corp
+263,Anthemis Digital Acquisitions I Corp.,10/27/2021,Informatica Inc
+264,Anthemis Digital Acquisitions I Corp.,10/27/2021,Innovative International Acqui
+265,Anthemis Digital Acquisitions I Corp.,10/27/2021,LAVA Medtech Acquisition Corp
+266,Anthemis Digital Acquisitions I Corp.,10/27/2021,MainStay CBRE Global Infrastru
+267,Anthemis Digital Acquisitions I Corp.,10/27/2021,Marpai Inc
+268,Anthemis Digital Acquisitions I Corp.,10/27/2021,OPY Acquisition Corp I
+269,Anthemis Digital Acquisitions I Corp.,10/27/2021,Pyrophyte Acquisition Corp
+270,Anthemis Digital Acquisitions I Corp.,10/27/2021,Rent The Runway Inc
+271,Anthemis Digital Acquisitions I Corp.,10/27/2021,TKB Critical Technologies 1
+272,M3-Brigade Acquisition III Corp.,10/21/2021,Accretion Acquisition Corp
+273,M3-Brigade Acquisition III Corp.,10/21/2021,Enfusion Inc
+274,M3-Brigade Acquisition III Corp.,10/21/2021,ExcelFin Acquisition Corp
+275,M3-Brigade Acquisition III Corp.,10/21/2021,Global Technology Acquisition
+276,M3-Brigade Acquisition III Corp.,10/21/2021,GoGreen Investments Corp
+277,M3-Brigade Acquisition III Corp.,10/21/2021,Newhold Investment Corp II
+278,M3-Brigade Acquisition III Corp.,10/21/2021,Portillo's Inc.
+279,M3-Brigade Acquisition III Corp.,10/21/2021,Runway Growth Finance Corp
+280,M3-Brigade Acquisition III Corp.,10/21/2021,"The Vita Coco Company, Inc."
+281,M3-Brigade Acquisition III Corp.,10/21/2021,Thrive Acquisition Corp
+282,M3-Brigade Acquisition III Corp.,10/21/2021,Ventyx Biosciences Inc
+283,Pegasus Digital Mobility Acquisition Corp.,10/21/2021,Accretion Acquisition Corp
+284,Pegasus Digital Mobility Acquisition Corp.,10/21/2021,Enfusion Inc
+285,Pegasus Digital Mobility Acquisition Corp.,10/21/2021,ExcelFin Acquisition Corp
+286,Pegasus Digital Mobility Acquisition Corp.,10/21/2021,Global Technology Acquisition
+287,Pegasus Digital Mobility Acquisition Corp.,10/21/2021,GoGreen Investments Corp
+288,Pegasus Digital Mobility Acquisition Corp.,10/21/2021,Newhold Investment Corp II
+289,Pegasus Digital Mobility Acquisition Corp.,10/21/2021,Portillo's Inc.
+290,Pegasus Digital Mobility Acquisition Corp.,10/21/2021,Runway Growth Finance Corp
+291,Pegasus Digital Mobility Acquisition Corp.,10/21/2021,"The Vita Coco Company, Inc."
+292,Pegasus Digital Mobility Acquisition Corp.,10/21/2021,Thrive Acquisition Corp
+293,Pegasus Digital Mobility Acquisition Corp.,10/21/2021,Ventyx Biosciences Inc
+294,Iconic Sports Acquisition Corp.,10/21/2021,Accretion Acquisition Corp
+295,Iconic Sports Acquisition Corp.,10/21/2021,Enfusion Inc
+296,Iconic Sports Acquisition Corp.,10/21/2021,ExcelFin Acquisition Corp
+297,Iconic Sports Acquisition Corp.,10/21/2021,Global Technology Acquisition
+298,Iconic Sports Acquisition Corp.,10/21/2021,GoGreen Investments Corp
+299,Iconic Sports Acquisition Corp.,10/21/2021,Newhold Investment Corp II
+300,Iconic Sports Acquisition Corp.,10/21/2021,Portillo's Inc.
+301,Iconic Sports Acquisition Corp.,10/21/2021,Runway Growth Finance Corp
+302,Iconic Sports Acquisition Corp.,10/21/2021,"The Vita Coco Company, Inc."
+303,Iconic Sports Acquisition Corp.,10/21/2021,Thrive Acquisition Corp
+304,Iconic Sports Acquisition Corp.,10/21/2021,Ventyx Biosciences Inc
+305,Newhold Investment Corp. II,10/20/2021,Athena Consumer Acquisition Co
+306,Newhold Investment Corp. II,10/20/2021,CYNGN Inc
+307,Newhold Investment Corp. II,10/20/2021,Context Therapeutics Inc
+308,Newhold Investment Corp. II,10/20/2021,Esgen Acquisition Corp
+309,Newhold Investment Corp. II,10/20/2021,Industrial Human Capital Inc
+310,Newhold Investment Corp. II,10/20/2021,Newcourt Acquisition Corp
+311,Newhold Investment Corp. II,10/20/2021,Stronghold Digital Mining Inc
+312,Newhold Investment Corp. II,10/20/2021,Worldwide Webb Acquisition Cor
+313,GoGreen Investments Corp.,10/20/2021,Athena Consumer Acquisition Co
+314,GoGreen Investments Corp.,10/20/2021,CYNGN Inc
+315,GoGreen Investments Corp.,10/20/2021,Context Therapeutics Inc
+316,GoGreen Investments Corp.,10/20/2021,Esgen Acquisition Corp
+317,GoGreen Investments Corp.,10/20/2021,Industrial Human Capital Inc
+318,GoGreen Investments Corp.,10/20/2021,Newcourt Acquisition Corp
+319,GoGreen Investments Corp.,10/20/2021,Stronghold Digital Mining Inc
+320,GoGreen Investments Corp.,10/20/2021,Worldwide Webb Acquisition Cor
+321,Global Technology Acquisition Corp. I,10/20/2021,Athena Consumer Acquisition Co
+322,Global Technology Acquisition Corp. I,10/20/2021,CYNGN Inc
+323,Global Technology Acquisition Corp. I,10/20/2021,Context Therapeutics Inc
+324,Global Technology Acquisition Corp. I,10/20/2021,Esgen Acquisition Corp
+325,Global Technology Acquisition Corp. I,10/20/2021,Industrial Human Capital Inc
+326,Global Technology Acquisition Corp. I,10/20/2021,Newcourt Acquisition Corp
+327,Global Technology Acquisition Corp. I,10/20/2021,Stronghold Digital Mining Inc
+328,Global Technology Acquisition Corp. I,10/20/2021,Worldwide Webb Acquisition Cor
+329,Accretion Acquisition Corp.,10/20/2021,Athena Consumer Acquisition Co
+330,Accretion Acquisition Corp.,10/20/2021,CYNGN Inc
+331,Accretion Acquisition Corp.,10/20/2021,Context Therapeutics Inc
+332,Accretion Acquisition Corp.,10/20/2021,Esgen Acquisition Corp
+333,Accretion Acquisition Corp.,10/20/2021,Industrial Human Capital Inc
+334,Accretion Acquisition Corp.,10/20/2021,Newcourt Acquisition Corp
+335,Accretion Acquisition Corp.,10/20/2021,Stronghold Digital Mining Inc
+336,Accretion Acquisition Corp.,10/20/2021,Worldwide Webb Acquisition Cor
+337,Thrive Acquisition Corp.,10/20/2021,Athena Consumer Acquisition Co
+338,Thrive Acquisition Corp.,10/20/2021,CYNGN Inc
+339,Thrive Acquisition Corp.,10/20/2021,Context Therapeutics Inc
+340,Thrive Acquisition Corp.,10/20/2021,Esgen Acquisition Corp
+341,Thrive Acquisition Corp.,10/20/2021,Industrial Human Capital Inc
+342,Thrive Acquisition Corp.,10/20/2021,Newcourt Acquisition Corp
+343,Thrive Acquisition Corp.,10/20/2021,Stronghold Digital Mining Inc
+344,Thrive Acquisition Corp.,10/20/2021,Worldwide Webb Acquisition Cor
+345,ExcelFin Acquisition Corp.,10/20/2021,Athena Consumer Acquisition Co
+346,ExcelFin Acquisition Corp.,10/20/2021,CYNGN Inc
+347,ExcelFin Acquisition Corp.,10/20/2021,Context Therapeutics Inc
+348,ExcelFin Acquisition Corp.,10/20/2021,Esgen Acquisition Corp
+349,ExcelFin Acquisition Corp.,10/20/2021,Industrial Human Capital Inc
+350,ExcelFin Acquisition Corp.,10/20/2021,Newcourt Acquisition Corp
+351,ExcelFin Acquisition Corp.,10/20/2021,Stronghold Digital Mining Inc
+352,ExcelFin Acquisition Corp.,10/20/2021,Worldwide Webb Acquisition Cor
+353,Newcourt Acquisition Corp.,10/19/2021,Blockchain Moon Acquisition Co
+354,Newcourt Acquisition Corp.,10/19/2021,Enterprise 4.0 Technology Acqu
+355,Newcourt Acquisition Corp.,10/19/2021,Fintech Ecosystem Development
+356,Newcourt Acquisition Corp.,10/19/2021,Sportsmap Tech Acquisition Cor
+357,"Industrial Human Capital, Inc.",10/19/2021,Blockchain Moon Acquisition Co
+358,"Industrial Human Capital, Inc.",10/19/2021,Enterprise 4.0 Technology Acqu
+359,"Industrial Human Capital, Inc.",10/19/2021,Fintech Ecosystem Development
+360,"Industrial Human Capital, Inc.",10/19/2021,Sportsmap Tech Acquisition Cor
+361,Athena Consumer Acquisition Corp.,10/19/2021,Blockchain Moon Acquisition Co
+362,Athena Consumer Acquisition Corp.,10/19/2021,Enterprise 4.0 Technology Acqu
+363,Athena Consumer Acquisition Corp.,10/19/2021,Fintech Ecosystem Development
+364,Athena Consumer Acquisition Corp.,10/19/2021,Sportsmap Tech Acquisition Cor
+365,Enterprise 4.0 Technology Acquisition Corp.,10/19/2021,Blockchain Moon Acquisition Co
+366,Enterprise 4.0 Technology Acquisition Corp.,10/19/2021,Enterprise 4.0 Technology Acqu
+367,Enterprise 4.0 Technology Acquisition Corp.,10/19/2021,Fintech Ecosystem Development
+368,Enterprise 4.0 Technology Acquisition Corp.,10/19/2021,Sportsmap Tech Acquisition Cor
+369,Worldwide Webb Acquisition Corp.,10/19/2021,Blockchain Moon Acquisition Co
+370,Worldwide Webb Acquisition Corp.,10/19/2021,Enterprise 4.0 Technology Acqu
+371,Worldwide Webb Acquisition Corp.,10/19/2021,Fintech Ecosystem Development
+372,Worldwide Webb Acquisition Corp.,10/19/2021,Sportsmap Tech Acquisition Cor
+373,ESGEN Acquisition Corp.,10/19/2021,Blockchain Moon Acquisition Co
+374,ESGEN Acquisition Corp.,10/19/2021,Enterprise 4.0 Technology Acqu
+375,ESGEN Acquisition Corp.,10/19/2021,Fintech Ecosystem Development
+376,ESGEN Acquisition Corp.,10/19/2021,Sportsmap Tech Acquisition Cor
+377,Fintech Ecosystem Development Corp.,10/18/2021,"Belpointe PREP, LLC"
+378,Blockchain Moon Acquisition Corp.,10/18/2021,"Belpointe PREP, LLC"
+379,Sportsmap Tech Acquisition Corp.,10/18/2021,"Belpointe PREP, LLC"
+380,Achari Ventures Holdings Corp. I,10/15/2021,Achari Ventures Holdings Corp.
+381,Achari Ventures Holdings Corp. I,10/15/2021,Compass Digital Acquisition Co
+382,Achari Ventures Holdings Corp. I,10/15/2021,Founder SPAC
+383,Achari Ventures Holdings Corp. I,10/15/2021,MiNK Therapeutics Inc
+384,Achari Ventures Holdings Corp. I,10/15/2021,Paragon 28 Inc
+385,Achari Ventures Holdings Corp. I,10/15/2021,PepperLime Health Acquisition
+386,Achari Ventures Holdings Corp. I,10/15/2021,Sanaby Health Acquisition Corp
+387,Compass Digital Acquisition Corp.,10/15/2021,Achari Ventures Holdings Corp.
+388,Compass Digital Acquisition Corp.,10/15/2021,Compass Digital Acquisition Co
+389,Compass Digital Acquisition Corp.,10/15/2021,Founder SPAC
+390,Compass Digital Acquisition Corp.,10/15/2021,MiNK Therapeutics Inc
+391,Compass Digital Acquisition Corp.,10/15/2021,Paragon 28 Inc
+392,Compass Digital Acquisition Corp.,10/15/2021,PepperLime Health Acquisition
+393,Compass Digital Acquisition Corp.,10/15/2021,Sanaby Health Acquisition Corp
+394,Founder SPAC,10/14/2021,Black Mountain Acquisition Cor
+395,Founder SPAC,10/14/2021,GitLab Inc
+396,Founder SPAC,10/14/2021,IHS Holding Ltd
+397,Founder SPAC,10/14/2021,Lucid Diagnostics Inc
+398,Founder SPAC,10/14/2021,Rose Hill Acquisition Corp
+399,Founder SPAC,10/14/2021,Tristar Acquisition I Corp
+400,Sanaby Health Acquisition Corp. I,10/14/2021,Black Mountain Acquisition Cor
+401,Sanaby Health Acquisition Corp. I,10/14/2021,GitLab Inc
+402,Sanaby Health Acquisition Corp. I,10/14/2021,IHS Holding Ltd
+403,Sanaby Health Acquisition Corp. I,10/14/2021,Lucid Diagnostics Inc
+404,Sanaby Health Acquisition Corp. I,10/14/2021,Rose Hill Acquisition Corp
+405,Sanaby Health Acquisition Corp. I,10/14/2021,Tristar Acquisition I Corp
+406,PepperLime Health Acquisition Corp.,10/14/2021,Black Mountain Acquisition Cor
+407,PepperLime Health Acquisition Corp.,10/14/2021,GitLab Inc
+408,PepperLime Health Acquisition Corp.,10/14/2021,IHS Holding Ltd
+409,PepperLime Health Acquisition Corp.,10/14/2021,Lucid Diagnostics Inc
+410,PepperLime Health Acquisition Corp.,10/14/2021,Rose Hill Acquisition Corp
+411,PepperLime Health Acquisition Corp.,10/14/2021,Tristar Acquisition I Corp
+412,Tristar Acquisition I Corp.,10/13/2021,AvidXchange Holdings Inc
+413,Tristar Acquisition I Corp.,10/13/2021,"Catalyst Bancorp, Inc."
+414,Tristar Acquisition I Corp.,10/13/2021,Fat Projects Acquisition Corp
+415,Tristar Acquisition I Corp.,10/13/2021,Healthcare Triangle Inc
+416,Black Mountain Acquisition Corp.,10/13/2021,AvidXchange Holdings Inc
+417,Black Mountain Acquisition Corp.,10/13/2021,"Catalyst Bancorp, Inc."
+418,Black Mountain Acquisition Corp.,10/13/2021,Fat Projects Acquisition Corp
+419,Black Mountain Acquisition Corp.,10/13/2021,Healthcare Triangle Inc
+420,Rose Hill Acquisition Corp.,10/13/2021,AvidXchange Holdings Inc
+421,Rose Hill Acquisition Corp.,10/13/2021,"Catalyst Bancorp, Inc."
+422,Rose Hill Acquisition Corp.,10/13/2021,Fat Projects Acquisition Corp
+423,Rose Hill Acquisition Corp.,10/13/2021,Healthcare Triangle Inc
+424,Fat Projects Acquisition Corp.,10/12/2021,Gesher I Acquisition Corp
+425,Gesher I Acquisition Corp.,10/12/2021,Gesher I Acquisition Corp
+426,Ventoux CCM Acquisition Corp.,12/23/2020,7GC & Co Holdings Inc
+427,Ventoux CCM Acquisition Corp.,12/23/2020,CF Acquisition Corp. IV
+428,Ventoux CCM Acquisition Corp.,12/23/2020,GBS Inc
+429,Ventoux CCM Acquisition Corp.,12/23/2020,"Inhibikase Therapeutics, Inc."
+430,Ventoux CCM Acquisition Corp.,12/23/2020,Viveon Health Acquisition Corp
+431,Viveon Health Acquisition Corp.,12/23/2020,7GC & Co Holdings Inc
+432,Viveon Health Acquisition Corp.,12/23/2020,CF Acquisition Corp. IV
+433,Viveon Health Acquisition Corp.,12/23/2020,GBS Inc
+434,Viveon Health Acquisition Corp.,12/23/2020,"Inhibikase Therapeutics, Inc."
+435,Viveon Health Acquisition Corp.,12/23/2020,Viveon Health Acquisition Corp
+436,Healthcare Services Acquisition Corp.,12/22/2020,Healthcare Services
+437,CF Acquisition Corp. IV,12/22/2020,Healthcare Services
+438,7GC & Co. Holdings Inc.,12/22/2020,Healthcare Services
+439,Ackrell SPAC Partners I Co.,12/21/2020,Ackrell SPAC Partners I
+440,Dune Acquisition Corp.,12/17/2020,Corner Growth Acquisition Corp
+441,Dune Acquisition Corp.,12/17/2020,ScION Tech Growth I
+442,Dune Acquisition Corp.,12/17/2020,Virios Therapeutics LLC
+443,MedTech Acquisition Corp.,12/17/2020,Corner Growth Acquisition Corp
+444,MedTech Acquisition Corp.,12/17/2020,ScION Tech Growth I
+445,MedTech Acquisition Corp.,12/17/2020,Virios Therapeutics LLC
+446,Golden Falcon Acquisition Corp.,12/17/2020,Corner Growth Acquisition Corp
+447,Golden Falcon Acquisition Corp.,12/17/2020,ScION Tech Growth I
+448,Golden Falcon Acquisition Corp.,12/17/2020,Virios Therapeutics LLC
+449,Seven Oaks Acquisition Corp.,12/17/2020,Corner Growth Acquisition Corp
+450,Seven Oaks Acquisition Corp.,12/17/2020,ScION Tech Growth I
+451,Seven Oaks Acquisition Corp.,12/17/2020,Virios Therapeutics LLC
+452,INSU Acquisition Corp. III,12/17/2020,Corner Growth Acquisition Corp
+453,INSU Acquisition Corp. III,12/17/2020,ScION Tech Growth I
+454,INSU Acquisition Corp. III,12/17/2020,Virios Therapeutics LLC
+455,ScION Tech Growth I,12/16/2020,BioAtla Inc
+456,ScION Tech Growth I,12/16/2020,Churchill Capital Corp V
+457,ScION Tech Growth I,12/16/2020,Contextlogic Inc
+458,ScION Tech Growth I,12/16/2020,Scopus Biopharma Inc
+459,ScION Tech Growth I,12/16/2020,Upstart Holdings Inc
+460,Corner Growth Acquisition Corp.,12/16/2020,BioAtla Inc
+461,Corner Growth Acquisition Corp.,12/16/2020,Churchill Capital Corp V
+462,Corner Growth Acquisition Corp.,12/16/2020,Contextlogic Inc
+463,Corner Growth Acquisition Corp.,12/16/2020,Scopus Biopharma Inc
+464,Corner Growth Acquisition Corp.,12/16/2020,Upstart Holdings Inc
+465,Blue Water Acquisition Corp.,12/15/2020,Americas Tech Acq Corp
+466,Blue Water Acquisition Corp.,12/15/2020,Blue Water Acquisition Corp
+467,Blue Water Acquisition Corp.,12/15/2020,Kins Technology Group Inc
+468,Blue Water Acquisition Corp.,12/15/2020,Marquee Raine Acquisition Corp
+469,Blue Water Acquisition Corp.,12/15/2020,Oriental Culture Holding Ltd
+470,Blue Water Acquisition Corp.,12/15/2020,Wunong Net Technology Co Ltd
+471,"KINS Technology Group, Inc.",12/15/2020,Americas Tech Acq Corp
+472,"KINS Technology Group, Inc.",12/15/2020,Blue Water Acquisition Corp
+473,"KINS Technology Group, Inc.",12/15/2020,Kins Technology Group Inc
+474,"KINS Technology Group, Inc.",12/15/2020,Marquee Raine Acquisition Corp
+475,"KINS Technology Group, Inc.",12/15/2020,Oriental Culture Holding Ltd
+476,"KINS Technology Group, Inc.",12/15/2020,Wunong Net Technology Co Ltd
+477,Churchill Capital Corp. V,12/15/2020,Americas Tech Acq Corp
+478,Churchill Capital Corp. V,12/15/2020,Blue Water Acquisition Corp
+479,Churchill Capital Corp. V,12/15/2020,Kins Technology Group Inc
+480,Churchill Capital Corp. V,12/15/2020,Marquee Raine Acquisition Corp
+481,Churchill Capital Corp. V,12/15/2020,Oriental Culture Holding Ltd
+482,Churchill Capital Corp. V,12/15/2020,Wunong Net Technology Co Ltd
+483,Americas Technology Acquisition Corp.,12/15/2020,Americas Tech Acq Corp
+484,Americas Technology Acquisition Corp.,12/15/2020,Blue Water Acquisition Corp
+485,Americas Technology Acquisition Corp.,12/15/2020,Kins Technology Group Inc
+486,Americas Technology Acquisition Corp.,12/15/2020,Marquee Raine Acquisition Corp
+487,Americas Technology Acquisition Corp.,12/15/2020,Oriental Culture Holding Ltd
+488,Americas Technology Acquisition Corp.,12/15/2020,Wunong Net Technology Co Ltd
+489,"CBRE Acquisition Holdings, Inc.",12/11/2020,4D Molecular Therapeutics Inc
+490,"CBRE Acquisition Holdings, Inc.",12/11/2020,AbCellera Biologics Inc
+491,"CBRE Acquisition Holdings, Inc.",12/11/2020,CBRE Acquisition Holdings Inc
+492,"CBRE Acquisition Holdings, Inc.",12/11/2020,Certara Inc
+493,"CBRE Acquisition Holdings, Inc.",12/11/2020,Delwinds Ins Acq Corp
+494,"CBRE Acquisition Holdings, Inc.",12/11/2020,EdtechX Hldg Acq Corp II
+495,"CBRE Acquisition Holdings, Inc.",12/11/2020,Globis Acquisition Corp
+496,"CBRE Acquisition Holdings, Inc.",12/11/2020,Gores Holdings VI Inc
+497,"CBRE Acquisition Holdings, Inc.",12/11/2020,Motive Capital Corp
+498,"CBRE Acquisition Holdings, Inc.",12/11/2020,Roth Ch Acquisition II Co
+499,"CBRE Acquisition Holdings, Inc.",12/11/2020,Senior Connect Acq Corp I
+500,"CBRE Acquisition Holdings, Inc.",12/11/2020,Thayer Ventures Acquisition
+501,"CBRE Acquisition Holdings, Inc.",12/11/2020,Vivos Therapeutics Inc
+502,EdTechX Holdings Acquisition Corp. II,12/10/2020,Airbnb Inc
+503,EdTechX Holdings Acquisition Corp. II,12/10/2020,Carney Tech Acq Corp II
+504,EdTechX Holdings Acquisition Corp. II,12/10/2020,Hydrofarm Holdings Group Inc
+505,EdTechX Holdings Acquisition Corp. II,12/10/2020,Periphas Capital Partnering Co
+506,EdTechX Holdings Acquisition Corp. II,12/10/2020,RMG Acquisition Corp II
+507,Delwinds Insurance Acquisition Corp.,12/10/2020,Airbnb Inc
+508,Delwinds Insurance Acquisition Corp.,12/10/2020,Carney Tech Acq Corp II
+509,Delwinds Insurance Acquisition Corp.,12/10/2020,Hydrofarm Holdings Group Inc
+510,Delwinds Insurance Acquisition Corp.,12/10/2020,Periphas Capital Partnering Co
+511,Delwinds Insurance Acquisition Corp.,12/10/2020,RMG Acquisition Corp II
+512,"Gores Holdings VI, Inc.",12/10/2020,Airbnb Inc
+513,"Gores Holdings VI, Inc.",12/10/2020,Carney Tech Acq Corp II
+514,"Gores Holdings VI, Inc.",12/10/2020,Hydrofarm Holdings Group Inc
+515,"Gores Holdings VI, Inc.",12/10/2020,Periphas Capital Partnering Co
+516,"Gores Holdings VI, Inc.",12/10/2020,RMG Acquisition Corp II
+517,Thayer Ventures Acquisition Corp.,12/10/2020,Airbnb Inc
+518,Thayer Ventures Acquisition Corp.,12/10/2020,Carney Tech Acq Corp II
+519,Thayer Ventures Acquisition Corp.,12/10/2020,Hydrofarm Holdings Group Inc
+520,Thayer Ventures Acquisition Corp.,12/10/2020,Periphas Capital Partnering Co
+521,Thayer Ventures Acquisition Corp.,12/10/2020,RMG Acquisition Corp II
+522,RMG Acquisition Corp. II,12/10/2020,Airbnb Inc
+523,RMG Acquisition Corp. II,12/10/2020,Carney Tech Acq Corp II
+524,RMG Acquisition Corp. II,12/10/2020,Hydrofarm Holdings Group Inc
+525,RMG Acquisition Corp. II,12/10/2020,Periphas Capital Partnering Co
+526,RMG Acquisition Corp. II,12/10/2020,RMG Acquisition Corp II
+527,Globis Acquisition Corp.,12/10/2020,Airbnb Inc
+528,Globis Acquisition Corp.,12/10/2020,Carney Tech Acq Corp II
+529,Globis Acquisition Corp.,12/10/2020,Hydrofarm Holdings Group Inc
+530,Globis Acquisition Corp.,12/10/2020,Periphas Capital Partnering Co
+531,Globis Acquisition Corp.,12/10/2020,RMG Acquisition Corp II
+532,Roth CH Acquisition II Co.,12/10/2020,Airbnb Inc
+533,Roth CH Acquisition II Co.,12/10/2020,Carney Tech Acq Corp II
+534,Roth CH Acquisition II Co.,12/10/2020,Hydrofarm Holdings Group Inc
+535,Roth CH Acquisition II Co.,12/10/2020,Periphas Capital Partnering Co
+536,Roth CH Acquisition II Co.,12/10/2020,RMG Acquisition Corp II
+537,Senior Connect Acquisition Corp.,12/10/2020,Airbnb Inc
+538,Senior Connect Acquisition Corp.,12/10/2020,Carney Tech Acq Corp II
+539,Senior Connect Acquisition Corp.,12/10/2020,Hydrofarm Holdings Group Inc
+540,Senior Connect Acquisition Corp.,12/10/2020,Periphas Capital Partnering Co
+541,Senior Connect Acquisition Corp.,12/10/2020,RMG Acquisition Corp II
+542,Motive Capital Corp.,12/10/2020,Airbnb Inc
+543,Motive Capital Corp.,12/10/2020,Carney Tech Acq Corp II
+544,Motive Capital Corp.,12/10/2020,Hydrofarm Holdings Group Inc
+545,Motive Capital Corp.,12/10/2020,Periphas Capital Partnering Co
+546,Motive Capital Corp.,12/10/2020,RMG Acquisition Corp II
+547,Seaport Global Acquisition Corp.,11/30/2020,Seaport Global Acquisition
+548,10X Capital Venture Acquisition Corp.,11/24/2020,10X Capital Venture Acq Corp
+549,10X Capital Venture Acquisition Corp.,11/24/2020,Genesis Park Acquisition Corp
+550,10X Capital Venture Acquisition Corp.,11/24/2020,HF Enterprises Inc
+551,10X Capital Venture Acquisition Corp.,11/24/2020,Ozon Holdings PLC
+552,10X Capital Venture Acquisition Corp.,11/24/2020,Spring Valley Acquisition Corp
+553,10X Capital Venture Acquisition Corp.,11/24/2020,Tiga Acquisition Corp
+554,10X Capital Venture Acquisition Corp.,11/24/2020,Vision Marine Technologies Inc
+555,Forest Road Acquisition Corp.,11/24/2020,10X Capital Venture Acq Corp
+556,Forest Road Acquisition Corp.,11/24/2020,Genesis Park Acquisition Corp
+557,Forest Road Acquisition Corp.,11/24/2020,HF Enterprises Inc
+558,Forest Road Acquisition Corp.,11/24/2020,Ozon Holdings PLC
+559,Forest Road Acquisition Corp.,11/24/2020,Spring Valley Acquisition Corp
+560,Forest Road Acquisition Corp.,11/24/2020,Tiga Acquisition Corp
+561,Forest Road Acquisition Corp.,11/24/2020,Vision Marine Technologies Inc
+562,Spartan Acquisition Corp. II,11/24/2020,10X Capital Venture Acq Corp
+563,Spartan Acquisition Corp. II,11/24/2020,Genesis Park Acquisition Corp
+564,Spartan Acquisition Corp. II,11/24/2020,HF Enterprises Inc
+565,Spartan Acquisition Corp. II,11/24/2020,Ozon Holdings PLC
+566,Spartan Acquisition Corp. II,11/24/2020,Spring Valley Acquisition Corp
+567,Spartan Acquisition Corp. II,11/24/2020,Tiga Acquisition Corp
+568,Spartan Acquisition Corp. II,11/24/2020,Vision Marine Technologies Inc
+569,Spring Valley Acquisition Corp.,11/23/2020,Breeze Hldg Acq Corp
+570,Genesis Park Acquisition Corp.,11/23/2020,Breeze Hldg Acq Corp
+571,Breeze Holdings Acquisition Corp.,11/23/2020,Breeze Hldg Acq Corp
+572,Tiga Acquisition Corp.,11/23/2020,Breeze Hldg Acq Corp
+573,LifeSci Acquisition II Corp.,11/20/2020,Aequi Acquisition Corp
+574,LifeSci Acquisition II Corp.,11/20/2020,Cascade Acquisition Corp
+575,LifeSci Acquisition II Corp.,11/20/2020,Kingswood Acquisition Corp
+576,LifeSci Acquisition II Corp.,11/20/2020,Lifesci Acquisition II Corp
+577,LifeSci Acquisition II Corp.,11/20/2020,Maravai Lifesciences Hldg Inc
+578,LifeSci Acquisition II Corp.,11/20/2020,Omnichannel Acquisition Corp
+579,LifeSci Acquisition II Corp.,11/20/2020,Sotera Health Co
+580,Omnichannel Acquisition Corp.,11/20/2020,Aequi Acquisition Corp
+581,Omnichannel Acquisition Corp.,11/20/2020,Cascade Acquisition Corp
+582,Omnichannel Acquisition Corp.,11/20/2020,Kingswood Acquisition Corp
+583,Omnichannel Acquisition Corp.,11/20/2020,Lifesci Acquisition II Corp
+584,Omnichannel Acquisition Corp.,11/20/2020,Maravai Lifesciences Hldg Inc
+585,Omnichannel Acquisition Corp.,11/20/2020,Omnichannel Acquisition Corp
+586,Omnichannel Acquisition Corp.,11/20/2020,Sotera Health Co
+587,Aequi Acquisition Corp.,11/19/2020,Consonance-HFW Acq Corp
+588,Aequi Acquisition Corp.,11/19/2020,Investindustrial Acq Corp
+589,Aequi Acquisition Corp.,11/19/2020,Jiya Acquisition Corp
+590,Aequi Acquisition Corp.,11/19/2020,L&F Acquisition Corp
+591,Aequi Acquisition Corp.,11/19/2020,Neogames
+592,Aequi Acquisition Corp.,11/19/2020,Olema Pharmaceuticals Inc
+593,Aequi Acquisition Corp.,11/19/2020,Reinvent Technology Partners Z
+594,Aequi Acquisition Corp.,11/19/2020,TELOS Corp
+595,Aequi Acquisition Corp.,11/19/2020,Yatsen Hldg Ltd
+596,Cascade Acquisition Corp.,11/19/2020,Consonance-HFW Acq Corp
+597,Cascade Acquisition Corp.,11/19/2020,Investindustrial Acq Corp
+598,Cascade Acquisition Corp.,11/19/2020,Jiya Acquisition Corp
+599,Cascade Acquisition Corp.,11/19/2020,L&F Acquisition Corp
+600,Cascade Acquisition Corp.,11/19/2020,Neogames
+601,Cascade Acquisition Corp.,11/19/2020,Olema Pharmaceuticals Inc
+602,Cascade Acquisition Corp.,11/19/2020,Reinvent Technology Partners Z
+603,Cascade Acquisition Corp.,11/19/2020,TELOS Corp
+604,Cascade Acquisition Corp.,11/19/2020,Yatsen Hldg Ltd
+605,Kingswood Global Holdings Inc.,11/19/2020,Consonance-HFW Acq Corp
+606,Kingswood Global Holdings Inc.,11/19/2020,Investindustrial Acq Corp
+607,Kingswood Global Holdings Inc.,11/19/2020,Jiya Acquisition Corp
+608,Kingswood Global Holdings Inc.,11/19/2020,L&F Acquisition Corp
+609,Kingswood Global Holdings Inc.,11/19/2020,Neogames
+610,Kingswood Global Holdings Inc.,11/19/2020,Olema Pharmaceuticals Inc
+611,Kingswood Global Holdings Inc.,11/19/2020,Reinvent Technology Partners Z
+612,Kingswood Global Holdings Inc.,11/19/2020,TELOS Corp
+613,Kingswood Global Holdings Inc.,11/19/2020,Yatsen Hldg Ltd
+614,Consonance-HFW Acquisition Corp.,11/18/2020,Population Health Invest Co
+615,Investindustrial Acquisition Corp.,11/18/2020,Population Health Invest Co
+616,L&F Acquisition Corp.,11/18/2020,Population Health Invest Co
+617,Jiya Acquisition Corp.,11/18/2020,Population Health Invest Co
+618,Reinvent Technology Partners Z,11/18/2020,Population Health Invest Co
+619,"Population Health Investment Co., Inc.",11/18/2020,Population Health Invest Co
+620,OTR Acquisition Corp.,11/17/2020,Dragoneer Growth II
+621,OTR Acquisition Corp.,11/17/2020,OTR Acquisition Corp
+622,OTR Acquisition Corp.,11/17/2020,Pine Island Acq Corp
+623,OTR Acquisition Corp.,11/17/2020,Zanite Acquisition Corp
+624,Northern Star Acquisition Corp.,11/10/2020,Edoc Acquisition Corp
+625,Northern Star Acquisition Corp.,11/10/2020,TS Innovation Acqs Corp
+626,Natural Order Acquisition Corp.,11/10/2020,Edoc Acquisition Corp
+627,Natural Order Acquisition Corp.,11/10/2020,TS Innovation Acqs Corp
+628,New Beginnings Acquisition Corp.,10/29/2020,Allegro MicroSystems Inc
+629,New Beginnings Acquisition Corp.,10/29/2020,Duddell St Acq Corp
+630,New Beginnings Acquisition Corp.,10/29/2020,Galecto Inc
+631,New Beginnings Acquisition Corp.,10/29/2020,Leslies Inc
+632,CONX Corp.,10/29/2020,Allegro MicroSystems Inc
+633,CONX Corp.,10/29/2020,Duddell St Acq Corp
+634,CONX Corp.,10/29/2020,Galecto Inc
+635,CONX Corp.,10/29/2020,Leslies Inc
+636,Bull Horn Holdings Corp,10/29/2020,Allegro MicroSystems Inc
+637,Bull Horn Holdings Corp,10/29/2020,Duddell St Acq Corp
+638,Bull Horn Holdings Corp,10/29/2020,Galecto Inc
+639,Bull Horn Holdings Corp,10/29/2020,Leslies Inc
+640,Duddell Street Acquisition Corp.,10/28/2020,Ajax I
+641,Duddell Street Acquisition Corp.,10/28/2020,Atlas Crest Investment Corp
+642,Duddell Street Acquisition Corp.,10/28/2020,Biodesix Inc
+643,Duddell Street Acquisition Corp.,10/28/2020,Bluescape Opportunities Acq
+644,Duddell Street Acquisition Corp.,10/28/2020,GATOS Silver
+645,Duddell Street Acquisition Corp.,10/28/2020,Mallard Acquisition Corp
+646,Duddell Street Acquisition Corp.,10/28/2020,MediaAlpha Inc
+647,Duddell Street Acquisition Corp.,10/28/2020,Root Inc
+648,Bluescape Opportunities Acquisition Corp.,10/27/2020,Lux Health Tech Acq Corp
+649,Mallard Acquisition Corp.,10/27/2020,Lux Health Tech Acq Corp
+650,Atlas Crest Investment Corp.,10/27/2020,Lux Health Tech Acq Corp
+651,Ajax I,10/27/2020,Lux Health Tech Acq Corp
+652,Eucrates Biomedical Acquisition Corp.,10/23/2020,Acies Acquisition Corp
+653,Eucrates Biomedical Acquisition Corp.,10/23/2020,Altimar Acquisition Corp
+654,Eucrates Biomedical Acquisition Corp.,10/23/2020,Eucrates Biomedical Acquisitio
+655,Eucrates Biomedical Acquisition Corp.,10/23/2020,Foghorn Therapeutics Inc
+656,Acies Acquisition Corp.,10/22/2020,BCLS Acquisition Corp
+657,Acies Acquisition Corp.,10/22/2020,Cerberus Telecom Acq Corp
+658,Acies Acquisition Corp.,10/22/2020,Guild Holdings Co
+659,Acies Acquisition Corp.,10/22/2020,McAfee Corp
+660,Acies Acquisition Corp.,10/22/2020,Rice Acquisition Corp
+661,Acies Acquisition Corp.,10/22/2020,Tekkorp Digital Acquisition
+662,Acies Acquisition Corp.,10/22/2020,Yellowstone Acquisition Co
+663,Altimar Acquisition Corp.,10/22/2020,BCLS Acquisition Corp
+664,Altimar Acquisition Corp.,10/22/2020,Cerberus Telecom Acq Corp
+665,Altimar Acquisition Corp.,10/22/2020,Guild Holdings Co
+666,Altimar Acquisition Corp.,10/22/2020,McAfee Corp
+667,Altimar Acquisition Corp.,10/22/2020,Rice Acquisition Corp
+668,Altimar Acquisition Corp.,10/22/2020,Tekkorp Digital Acquisition
+669,Altimar Acquisition Corp.,10/22/2020,Yellowstone Acquisition Co
+670,Tekkorp Digital Acquisition Corp.,10/21/2020,DPCM Capital Inc
+671,Tekkorp Digital Acquisition Corp.,10/21/2020,Datto Holding Corp
+672,Tekkorp Digital Acquisition Corp.,10/21/2020,HIG Acquisition Corp
+673,Tekkorp Digital Acquisition Corp.,10/21/2020,Lefteris Acquisition Corp
+674,Tekkorp Digital Acquisition Corp.,10/21/2020,Mingzhu Logistics Holdings Ltd
+675,Tekkorp Digital Acquisition Corp.,10/21/2020,Sarissa Capital Acq Corp
+676,Tekkorp Digital Acquisition Corp.,10/21/2020,Supernova Partners Acq Co Inc
+677,Yellowstone Acquisition Corp.,10/21/2020,DPCM Capital Inc
+678,Yellowstone Acquisition Corp.,10/21/2020,Datto Holding Corp
+679,Yellowstone Acquisition Corp.,10/21/2020,HIG Acquisition Corp
+680,Yellowstone Acquisition Corp.,10/21/2020,Lefteris Acquisition Corp
+681,Yellowstone Acquisition Corp.,10/21/2020,Mingzhu Logistics Holdings Ltd
+682,Yellowstone Acquisition Corp.,10/21/2020,Sarissa Capital Acq Corp
+683,Yellowstone Acquisition Corp.,10/21/2020,Supernova Partners Acq Co Inc
+684,"DPCM Capital, Inc.",10/21/2020,DPCM Capital Inc
+685,"DPCM Capital, Inc.",10/21/2020,Datto Holding Corp
+686,"DPCM Capital, Inc.",10/21/2020,HIG Acquisition Corp
+687,"DPCM Capital, Inc.",10/21/2020,Lefteris Acquisition Corp
+688,"DPCM Capital, Inc.",10/21/2020,Mingzhu Logistics Holdings Ltd
+689,"DPCM Capital, Inc.",10/21/2020,Sarissa Capital Acq Corp
+690,"DPCM Capital, Inc.",10/21/2020,Supernova Partners Acq Co Inc
+691,Cerberus Telecom Acquisition Corp.,10/21/2020,DPCM Capital Inc
+692,Cerberus Telecom Acquisition Corp.,10/21/2020,Datto Holding Corp
+693,Cerberus Telecom Acquisition Corp.,10/21/2020,HIG Acquisition Corp
+694,Cerberus Telecom Acquisition Corp.,10/21/2020,Lefteris Acquisition Corp
+695,Cerberus Telecom Acquisition Corp.,10/21/2020,Mingzhu Logistics Holdings Ltd
+696,Cerberus Telecom Acquisition Corp.,10/21/2020,Sarissa Capital Acq Corp
+697,Cerberus Telecom Acquisition Corp.,10/21/2020,Supernova Partners Acq Co Inc
+698,BCLS Acquisition Corp.,10/21/2020,DPCM Capital Inc
+699,BCLS Acquisition Corp.,10/21/2020,Datto Holding Corp
+700,BCLS Acquisition Corp.,10/21/2020,HIG Acquisition Corp
+701,BCLS Acquisition Corp.,10/21/2020,Lefteris Acquisition Corp
+702,BCLS Acquisition Corp.,10/21/2020,Mingzhu Logistics Holdings Ltd
+703,BCLS Acquisition Corp.,10/21/2020,Sarissa Capital Acq Corp
+704,BCLS Acquisition Corp.,10/21/2020,Supernova Partners Acq Co Inc
+705,Rice Acquisition Corp.,10/21/2020,DPCM Capital Inc
+706,Rice Acquisition Corp.,10/21/2020,Datto Holding Corp
+707,Rice Acquisition Corp.,10/21/2020,HIG Acquisition Corp
+708,Rice Acquisition Corp.,10/21/2020,Lefteris Acquisition Corp
+709,Rice Acquisition Corp.,10/21/2020,Mingzhu Logistics Holdings Ltd
+710,Rice Acquisition Corp.,10/21/2020,Sarissa Capital Acq Corp
+711,Rice Acquisition Corp.,10/21/2020,Supernova Partners Acq Co Inc
+712,Good Works Acquisition Corp.,10/20/2020,Decarbonization Plus Acq Corp
+713,Good Works Acquisition Corp.,10/20/2020,Good Works Acquisition Corp
+714,Good Works Acquisition Corp.,10/20/2020,Helix Acquisition Corp
+715,Good Works Acquisition Corp.,10/20/2020,Horizon Acquisition Corp II
+716,"Supernova Partners Acquisition Co., Inc.",10/20/2020,Decarbonization Plus Acq Corp
+717,"Supernova Partners Acquisition Co., Inc.",10/20/2020,Good Works Acquisition Corp
+718,"Supernova Partners Acquisition Co., Inc.",10/20/2020,Helix Acquisition Corp
+719,"Supernova Partners Acquisition Co., Inc.",10/20/2020,Horizon Acquisition Corp II
+720,Sarissa Capital Acquisition Corp.,10/20/2020,Decarbonization Plus Acq Corp
+721,Sarissa Capital Acquisition Corp.,10/20/2020,Good Works Acquisition Corp
+722,Sarissa Capital Acquisition Corp.,10/20/2020,Helix Acquisition Corp
+723,Sarissa Capital Acquisition Corp.,10/20/2020,Horizon Acquisition Corp II
+724,H.I.G. Acquisition Corp,10/20/2020,Decarbonization Plus Acq Corp
+725,H.I.G. Acquisition Corp,10/20/2020,Good Works Acquisition Corp
+726,H.I.G. Acquisition Corp,10/20/2020,Helix Acquisition Corp
+727,H.I.G. Acquisition Corp,10/20/2020,Horizon Acquisition Corp II
+728,Lefteris Acquisition Corp.,10/20/2020,Decarbonization Plus Acq Corp
+729,Lefteris Acquisition Corp.,10/20/2020,Good Works Acquisition Corp
+730,Lefteris Acquisition Corp.,10/20/2020,Helix Acquisition Corp
+731,Lefteris Acquisition Corp.,10/20/2020,Horizon Acquisition Corp II
+732,Bridgetown Holdings Ltd.,10/16/2020,Aligos Therapeutics Inc
+733,Bridgetown Holdings Ltd.,10/16/2020,Bridgetown Holdings Ltd
+734,Bridgetown Holdings Ltd.,10/16/2020,Eargo Inc
+735,Bridgetown Holdings Ltd.,10/16/2020,Kiromic Biopharma Inc
+736,Bridgetown Holdings Ltd.,10/16/2020,Praxis Precision Medicines Inc
+737,Bridgetown Holdings Ltd.,10/16/2020,Tarsus Pharmaceuticals Inc
+738,Bridgetown Holdings Ltd.,10/16/2020,Turmeric Acquisition Corp
+739,Motion Acquisition Corp.,10/15/2020,Array Technologies Inc
+740,Motion Acquisition Corp.,10/15/2020,MINISO Group Holding Ltd
+741,Motion Acquisition Corp.,10/15/2020,Motion Acquisition Corp
+742,Motion Acquisition Corp.,10/15/2020,Spartacus Acq Corp
+743,Spartacus Acquisition Corp.,10/15/2020,Array Technologies Inc
+744,Spartacus Acquisition Corp.,10/15/2020,MINISO Group Holding Ltd
+745,Spartacus Acquisition Corp.,10/15/2020,Motion Acquisition Corp
+746,Spartacus Acquisition Corp.,10/15/2020,Spartacus Acq Corp
+747,Turmeric Acquisition Corp.,10/15/2020,Array Technologies Inc
+748,Turmeric Acquisition Corp.,10/15/2020,MINISO Group Holding Ltd
+749,Turmeric Acquisition Corp.,10/15/2020,Motion Acquisition Corp
+750,Turmeric Acquisition Corp.,10/15/2020,Spartacus Acq Corp
+751,LIV Capital Acquisition Corp.,12/13/2019,CIIG Merger Corp
+752,LIV Capital Acquisition Corp.,12/13/2019,Healthcare Merger Corp
+753,LIV Capital Acquisition Corp.,12/13/2019,OneConnect Finl Tech Co Ltd
+754,LIV Capital Acquisition Corp.,12/13/2019,Sprout Social Inc
+755,PropTech Acquisition Corp.,11/26/2019,Alussa Energy Acq Corp
+756,PropTech Acquisition Corp.,11/26/2019,Calamos Long/Short Equity Inc
+757,CHP Merger Corp.,11/26/2019,Alussa Energy Acq Corp
+758,CHP Merger Corp.,11/26/2019,Calamos Long/Short Equity Inc
+759,Amplitude Healthcare Acquisition Corp.,11/22/2019,Alpine Income Property Trust
+760,Amplitude Healthcare Acquisition Corp.,11/22/2019,CHP Merger Corp
+761,Amplitude Healthcare Acquisition Corp.,11/22/2019,PropTech Acquisition Corp
+762,Software Acquisition Group Inc.,11/22/2019,Alpine Income Property Trust
+763,Software Acquisition Group Inc.,11/22/2019,CHP Merger Corp
+764,Software Acquisition Group Inc.,11/22/2019,PropTech Acquisition Corp
+765,GreenVision Acquisition Corp.,11/21/2019,Canaan Inc
+766,GreenVision Acquisition Corp.,11/21/2019,SiTime Corp
+767,Stable Road Acquisition Corp.,11/13/2019,YayYo Inc
+768,"Juniper Industrial Holdings, Inc.",11/13/2019,YayYo Inc
+769,Chardan Healthcare Acquisition Corp.,12/18/2018,Aptorum Grp Ltd
+770,CF Finance Acquisition Corp.,12/17/2018,Chardan Healthcare Acq Corp
+771,Schultze Special Purpose Acquisition Corp.,12/13/2018,CF Finance Acquisition Corp
+772,FinTech Acquisition Corp. III,11/20/2018,TuanChe Limited
+773,AMCI Acquisition Corp.,11/20/2018,TuanChe Limited
+774,Boxwood Merger Corp.,11/20/2018,TuanChe Limited
+775,Alberton Acquisition Corp.,10/26/2018,Gamida Cell Ltd
+776,Alberton Acquisition Corp.,10/26/2018,RiverNorth Opportunistic Munic
+777,Graf Industrial Corp.,10/18/2018,Osmotica Pharmaceuticals PLC
+778,Graf Industrial Corp.,10/18/2018,PhaseBio Pharmaceuticals Inc
+779,Graf Industrial Corp.,10/18/2018,Studio City Intl Hldg Ltd
+780,DD3 Acquisition Corp.,10/16/2018,Graf Industrial Corp
+781,Legacy Acquisition Corp.,11/17/2017,Bluegreen Vacations Corp
+782,Legacy Acquisition Corp.,11/17/2017,Legacy Acquisition
+783,Legacy Acquisition Corp.,11/17/2017,SailPoint Tech Hldg Inc
+784,Legacy Acquisition Corp.,11/17/2017,Sterling Bancorp Inc
+785,Legacy Acquisition Corp.,11/17/2017,Stitch Fix Inc
+786,Legacy Acquisition Corp.,11/17/2017,scPharmaceuticals Inc
+787,Haymaker Acquisition Corp.,10/27/2017,Dreyfus Alcentra Gl Cr 2024
+788,Haymaker Acquisition Corp.,10/27/2017,Forescout Technologies Inc
+789,Haymaker Acquisition Corp.,10/27/2017,Merchants Bancorp
+790,Haymaker Acquisition Corp.,10/27/2017,Nexa Resources SA
+791,Avista Healthcare Public Acquisition Corp.,10/14/2016,Mammoth Energy Services Inc
