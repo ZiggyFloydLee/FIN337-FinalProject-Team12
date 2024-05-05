@@ -29,7 +29,7 @@ def load_data():
 data = load_data()
 
 # Dashboard setup
-st.title('SPAC and IPO Dashboard')
+st.title('FIN 377-Final Project-Team 12: SPAC and IPO Dashboard')
 st.write('This dashboard visualizes data for young firms from the CCM dataset.')
 
 # Use columns for layout
