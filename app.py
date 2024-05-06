@@ -1,79 +1,79 @@
-# import streamlit as st
-# import pandas as pd
-# from sklearn.neighbors import NearestNeighbors
-# from sklearn.preprocessing import StandardScaler
-# from sklearn.model_selection import train_test_split
-# from sklearn.neighbors import KNeighborsClassifier
-# from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-# from sklearn.decomposition import PCA
-# import matplotlib.pyplot as plt
-# import numpy as np
+import streamlit as st
+import pandas as pd
+from sklearn.neighbors import NearestNeighbors
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+import numpy as np
 
-# # Load data
-# merged_df = pd.read_csv('inputs/master_filtered_data.csv', low_memory=False)
-# master_merge = pd.read_csv('inputs/masterMerge.csv')
+# Load data
+merged_df = pd.read_csv('inputs/master_filtered_data.csv', low_memory=False)
+master_merge = pd.read_csv('inputs/masterMerge.csv')
 
-# # Define features and target
-# features = ['revt', 'cshi', 'naicsh']  # Ensure these column names exist in merged_df
-# target = 'IS_SPAC'  # Ensure this column exists in merged_df
+# Define features and target
+features = ['naicsh', 'caps', 'cshi', 'epspi', 'mkvalt']  # Ensure these column names exist in merged_df
+target = 'IS_SPAC'  # Ensure this column exists in merged_df
 
-# # Clean data
-# data_clean = merged_df.dropna(subset=features + [target])
+# Clean data
+data_clean = merged_df.dropna(subset=features + [target])
 
-# # Separate features and target
-# X = data_clean[features]
-# y = data_clean[target]
+# Separate features and target
+X = data_clean[features]
+y = data_clean[target]
 
-# # Feature scaling
-# scaler = StandardScaler()
-# X_scaled = scaler.fit_transform(X)
+# Feature scaling
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
 
-# # Train nearest neighbors model
-# n_neighbors = 5
-# nn = NearestNeighbors(n_neighbors=n_neighbors)
-# nn.fit(X_scaled)
+# Train nearest neighbors model
+n_neighbors = 5
+nn = NearestNeighbors(n_neighbors=n_neighbors)
+nn.fit(X_scaled)
 
-# # Streamlit app setup
-# st.title('SPAC and IPO Classifier')
-# st.sidebar.subheader('User Inputs')
+# Streamlit app setup
+st.title('SPAC and IPO Classifier')
+st.sidebar.subheader('User Inputs')
 
-# # User inputs
-# user_inputs = {}
-# for feature in features:
-#     user_inputs[feature] = st.sidebar.number_input(f'Enter {feature}', value=X[feature].mean())
+# User inputs
+user_inputs = {}
+for feature in features:
+    user_inputs[feature] = st.sidebar.number_input(f'Enter {feature}', value=X[feature].mean())
 
-# # Predict and find nearest neighbors
-# input_data = np.array([user_inputs[feature] for feature in features]).reshape(1, -1)
-# input_scaled = scaler.transform(input_data)
-# distances, indices = nn.kneighbors(input_scaled)
+# Predict and find nearest neighbors
+input_data = np.array([user_inputs[feature] for feature in features]).reshape(1, -1)
+input_scaled = scaler.transform(input_data)
+distances, indices = nn.kneighbors(input_scaled)
 
-# # Display nearest neighbors
-# st.write('### Results:')
-# st.write('Based on your inputs, your firm is most similar to the following firms:')
-# for i, idx in enumerate(indices[0]):
-#     st.write(f"Firm {i + 1}: {master_merge.iloc[idx]['tic']}")
-# predicted_spac = 'SPAC' if y.iloc[indices[0]].mean() > 0.5 else 'not a SPAC'
-# st.write(f'Based on the characteristics of these firms, your firm is most likely {predicted_spac}')
+# Display nearest neighbors
+st.write('### Results:')
+st.write('Based on your inputs, your firm is most similar to the following firms:')
+for i, idx in enumerate(indices[0]):
+    st.write(f"Firm {i + 1}: {master_merge.iloc[idx]['tic']}")
+predicted_spac = 'SPAC' if y.iloc[indices[0]].mean() > 0.5 else 'not a SPAC'
+st.write(f'Based on the characteristics of these firms, your firm is most likely {predicted_spac}')
 # st.write("Nearest Neighbors' Indicies:", indices)
-# st.write("Nearest Neighbors' Features:")
-# st.dataframe(merged_df.iloc[indices[0]])
+st.write("Nearest Neighbors' Features:")
+st.dataframe(merged_df.iloc[indices[0]])
 
-# # For viewing the actual SPAC status of these neighbors
-# st.write("Nearest Neighbors' SPAC Status:")
-# st.write(y.iloc[indices[0]].values)
+# For viewing the actual SPAC status of these neighbors
+st.write("Nearest Neighbors' SPAC Status:")
+st.write(y.iloc[indices[0]].values)
 
-# # Plotting
-# pca = PCA(n_components=2)
-# X_pca = pca.fit_transform(X_scaled)
-# fig, ax = plt.subplots()
-# scatter = ax.scatter(X_pca[:, 0], X_pca[:, 1], c=y, cmap='coolwarm', alpha=0.5)
-# legend = ax.legend(*scatter.legend_elements(), title="Classes")
-# ax.add_artist(legend)
-# input_pca = pca.transform(input_scaled)
-# ax.scatter(input_pca[0, 0], input_pca[0, 1], c='red', s=100, label='Your Firm')
-# ax.set_title('PCA Plot of Firms with Nearest Neighbors')
-# ax.legend()
-# st.pyplot(fig)
+# Plotting
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X_scaled)
+fig, ax = plt.subplots()
+scatter = ax.scatter(X_pca[:, 0], X_pca[:, 1], c=y, cmap='coolwarm', alpha=0.5)
+legend = ax.legend(*scatter.legend_elements(), title="Classes")
+ax.add_artist(legend)
+input_pca = pca.transform(input_scaled)
+ax.scatter(input_pca[0, 0], input_pca[0, 1], c='red', s=100, label='Your Firm')
+ax.set_title('PCA Plot of Firms with Nearest Neighbors')
+ax.legend()
+st.pyplot(fig)
 
 # import streamlit as st
 # import pandas as pd
@@ -242,152 +242,152 @@
 # st.pyplot(fig)
 
 
-import streamlit as st
-import pandas as pd
-from sklearn.neighbors import NearestNeighbors, KNeighborsClassifier
-from sklearn.preprocessing import StandardScaler
-from sklearn.impute import SimpleImputer
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt
-import numpy as np
+# import streamlit as st
+# import pandas as pd
+# from sklearn.neighbors import NearestNeighbors, KNeighborsClassifier
+# from sklearn.preprocessing import StandardScaler
+# from sklearn.impute import SimpleImputer
+# from sklearn.model_selection import train_test_split
+# from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+# from sklearn.decomposition import PCA
+# import matplotlib.pyplot as plt
+# import numpy as np
 
-# Load the data
-@st.cache
-def load_data():
-    data = pd.read_csv('inputs/master_filtered_data.csv', low_memory=False)
-    master_merge = pd.read_csv('inputs/masterMerge.csv')
-    return data, master_merge
+# # Load the data
+# @st.cache
+# def load_data():
+#     data = pd.read_csv('inputs/master_filtered_data.csv', low_memory=False)
+#     master_merge = pd.read_csv('inputs/masterMerge.csv')
+#     return data, master_merge
 
-data, master_merge = load_data()
+# data, master_merge = load_data()
 
-# Streamlit app setup
-st.title('SPAC and IPO Classifier')
-tab1, tab2 = st.tabs(["Nearest Neighbors Model", "Classification Model"])
+# # Streamlit app setup
+# st.title('SPAC and IPO Classifier')
+# tab1, tab2 = st.tabs(["Nearest Neighbors Model", "Classification Model"])
 
-# Define target
-target = 'IS_SPAC'
+# # Define target
+# target = 'IS_SPAC'
 
-# Tab 1: Nearest Neighbors Model
-with tab1:
-    st.subheader("Nearest Neighbors Analysis")
+# # Tab 1: Nearest Neighbors Model
+# with tab1:
+#     st.subheader("Nearest Neighbors Analysis")
     
-    # Define features for nearest neighbors
-    features_nn = ['revt', 'cshi', 'naicsh']
+#     # Define features for nearest neighbors
+#     features_nn = ['revt', 'cshi', 'naicsh']
     
-    # Prepare data for nearest neighbors
-    data_nn = data.dropna(subset=features_nn + [target])
-    X_nn = data_nn[features_nn]
-    y_nn = data_nn[target]
+#     # Prepare data for nearest neighbors
+#     data_nn = data.dropna(subset=features_nn + [target])
+#     X_nn = data_nn[features_nn]
+#     y_nn = data_nn[target]
 
-    # Feature scaling
-    scaler_nn = StandardScaler()
-    X_scaled_nn = scaler_nn.fit_transform(X_nn)
+#     # Feature scaling
+#     scaler_nn = StandardScaler()
+#     X_scaled_nn = scaler_nn.fit_transform(X_nn)
 
-    # Train nearest neighbors model
-    nn = NearestNeighbors(n_neighbors=5)
-    nn.fit(X_scaled_nn)
+#     # Train nearest neighbors model
+#     nn = NearestNeighbors(n_neighbors=5)
+#     nn.fit(X_scaled_nn)
 
-    # User inputs
-    user_inputs_nn = {feature: st.number_input(f'Enter {feature}', value=X_nn[feature].mean()) for feature in features_nn}
-    input_data_nn = np.array([user_inputs_nn[feature] for feature in features_nn]).reshape(1, -1)
-    input_scaled_nn = scaler_nn.transform(input_data_nn)
-    distances, indices = nn.kneighbors(input_scaled_nn)
+#     # User inputs
+#     user_inputs_nn = {feature: st.number_input(f'Enter {feature}', value=X_nn[feature].mean()) for feature in features_nn}
+#     input_data_nn = np.array([user_inputs_nn[feature] for feature in features_nn]).reshape(1, -1)
+#     input_scaled_nn = scaler_nn.transform(input_data_nn)
+#     distances, indices = nn.kneighbors(input_scaled_nn)
 
-    # Display nearest neighbors
-    st.write('### Results:')
-    st.write('Based on your inputs, your firm is most similar to the following firms:')
-    for i, idx in enumerate(indices[0]):
-        st.write(f"Firm {i + 1}: {master_merge.iloc[idx]['tic']}")
-    predicted_spac = 'SPAC' if y_nn.iloc[indices[0]].mean() > 0.5 else 'not a SPAC'
-    st.write(f'Based on the characteristics of these firms, your firm is most likely {predicted_spac}')
+#     # Display nearest neighbors
+#     st.write('### Results:')
+#     st.write('Based on your inputs, your firm is most similar to the following firms:')
+#     for i, idx in enumerate(indices[0]):
+#         st.write(f"Firm {i + 1}: {master_merge.iloc[idx]['tic']}")
+#     predicted_spac = 'SPAC' if y_nn.iloc[indices[0]].mean() > 0.5 else 'not a SPAC'
+#     st.write(f'Based on the characteristics of these firms, your firm is most likely {predicted_spac}')
 
-    # Plotting
-    pca_nn = PCA(n_components=2)
-    X_pca_nn = pca_nn.fit_transform(X_scaled_nn)
-    fig_nn, ax_nn = plt.subplots()
-    scatter_nn = ax_nn.scatter(X_pca_nn[:, 0], X_pca_nn[:, 1], c=y_nn, cmap='coolwarm', alpha=0.5)
-    legend_nn = ax_nn.legend(*scatter_nn.legend_elements(), title="Classes")
-    ax_nn.add_artist(legend_nn)
-    input_pca_nn = pca_nn.transform(input_scaled_nn)
-    ax_nn.scatter(input_pca_nn[0, 0], input_pca_nn[0, 1], c='red', s=100, label='Your Firm')
-    ax_nn.set_title('PCA Plot of Firms with Nearest Neighbors')
-    ax_nn.legend()
-    st.pyplot(fig_nn)
+#     # Plotting
+#     pca_nn = PCA(n_components=2)
+#     X_pca_nn = pca_nn.fit_transform(X_scaled_nn)
+#     fig_nn, ax_nn = plt.subplots()
+#     scatter_nn = ax_nn.scatter(X_pca_nn[:, 0], X_pca_nn[:, 1], c=y_nn, cmap='coolwarm', alpha=0.5)
+#     legend_nn = ax_nn.legend(*scatter_nn.legend_elements(), title="Classes")
+#     ax_nn.add_artist(legend_nn)
+#     input_pca_nn = pca_nn.transform(input_scaled_nn)
+#     ax_nn.scatter(input_pca_nn[0, 0], input_pca_nn[0, 1], c='red', s=100, label='Your Firm')
+#     ax_nn.set_title('PCA Plot of Firms with Nearest Neighbors')
+#     ax_nn.legend()
+#     st.pyplot(fig_nn)
 
-# Tab 2: Classification Model
-with tab2:
-    # Load data
-    merged_df = pd.read_csv('inputs/master_filtered_data.csv', low_memory=False)
-    master_merge = pd.read_csv('inputs/masterMerge.csv')
+# # Tab 2: Classification Model
+# with tab2:
+#     # Load data
+#     merged_df = pd.read_csv('inputs/master_filtered_data.csv', low_memory=False)
+#     master_merge = pd.read_csv('inputs/masterMerge.csv')
 
-    # Define all potential features (for example)
-    all_potential_features = list(merged_df.columns.difference(['IS_SPAC']))  # Assuming 'IS_SPAC' is your only non-feature column
-    target = 'IS_SPAC'
+#     # Define all potential features (for example)
+#     all_potential_features = list(merged_df.columns.difference(['IS_SPAC']))  # Assuming 'IS_SPAC' is your only non-feature column
+#     target = 'IS_SPAC'
 
-    # Optionally filter features based on data availability or relevance
-    features = [col for col in all_potential_features if merged_df[col].notna().sum() > merged_df.shape[0] * 0.8]  # only use columns with less than 20% missing values
+#     # Optionally filter features based on data availability or relevance
+#     features = [col for col in all_potential_features if merged_df[col].notna().sum() > merged_df.shape[0] * 0.8]  # only use columns with less than 20% missing values
 
-    # Clean data
-    data_clean = merged_df.dropna(subset=features + [target])
+#     # Clean data
+#     data_clean = merged_df.dropna(subset=features + [target])
 
-    # Separate features and target
-    X = data_clean[features]
-    y = data_clean[target]
+#     # Separate features and target
+#     X = data_clean[features]
+#     y = data_clean[target]
 
-    # Feature scaling
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
+#     # Feature scaling
+#     scaler = StandardScaler()
+#     X_scaled = scaler.fit_transform(X)
 
-    # Train nearest neighbors model
-    n_neighbors = 5
-    nn = NearestNeighbors(n_neighbors=n_neighbors)
-    nn.fit(X_scaled)
+#     # Train nearest neighbors model
+#     n_neighbors = 5
+#     nn = NearestNeighbors(n_neighbors=n_neighbors)
+#     nn.fit(X_scaled)
 
-    # Streamlit app setup
-    st.title('SPAC and IPO Classifier')
-    st.sidebar.subheader('User Inputs')
+#     # Streamlit app setup
+#     st.title('SPAC and IPO Classifier')
+#     st.sidebar.subheader('User Inputs')
 
-    input_features = ['revt', 'cshi', 'naicsh']
-    # User inputs
-    user_inputs = {}
-    for feature in input_features:
-        user_inputs[feature] = st.sidebar.number_input(f'Enter {feature}', value=X[feature].mean())
+#     input_features = ['revt', 'cshi', 'naicsh']
+#     # User inputs
+#     user_inputs = {}
+#     for feature in input_features:
+#         user_inputs[feature] = st.sidebar.number_input(f'Enter {feature}', value=X[feature].mean())
 
-    # Combine user inputs with default values for other features
-    full_input = {feature: X[feature].mean() for feature in features}
-    full_input.update(user_inputs)  # Update with user-provided values
+#     # Combine user inputs with default values for other features
+#     full_input = {feature: X[feature].mean() for feature in features}
+#     full_input.update(user_inputs)  # Update with user-provided values
 
-    # Prepare data for prediction
-    input_data = np.array([full_input[feature] for feature in features]).reshape(1, -1)
-    input_scaled = scaler.transform(input_data)
-    distances, indices = nn.kneighbors(input_scaled)
-    # # Predict and find nearest neighbors
-    # input_data = np.array([user_inputs[f] for f in features]).reshape(1, -1)
-    # input_scaled = scaler.transform(input_data)
-    # distances, indices = nn.kneighbors(input_scaled)
+#     # Prepare data for prediction
+#     input_data = np.array([full_input[feature] for feature in features]).reshape(1, -1)
+#     input_scaled = scaler.transform(input_data)
+#     distances, indices = nn.kneighbors(input_scaled)
+#     # # Predict and find nearest neighbors
+#     # input_data = np.array([user_inputs[f] for f in features]).reshape(1, -1)
+#     # input_scaled = scaler.transform(input_data)
+#     # distances, indices = nn.kneighbors(input_scaled)
 
-    # Display nearest neighbors
-    st.write('### Results:')
-    st.write('Based on your inputs, your firm is most similar to the following firms:')
-    for i, idx in enumerate(indices[0]):
-        st.write(f"Firm {i + 1}: {master_merge.iloc[idx]['tic']}")
-    predicted_spac = 'SPAC' if y.iloc[indices[0]].mean() > 0.5 else 'not a SPAC'
-    st.write(f'Based on the characteristics of these firms, your firm is most likely {predicted_spac}')
+#     # Display nearest neighbors
+#     st.write('### Results:')
+#     st.write('Based on your inputs, your firm is most similar to the following firms:')
+#     for i, idx in enumerate(indices[0]):
+#         st.write(f"Firm {i + 1}: {master_merge.iloc[idx]['tic']}")
+#     predicted_spac = 'SPAC' if y.iloc[indices[0]].mean() > 0.5 else 'not a SPAC'
+#     st.write(f'Based on the characteristics of these firms, your firm is most likely {predicted_spac}')
 
-    # Plotting
-    pca = PCA(n_components=2)
-    X_pca = pca.fit_transform(X_scaled)
-    fig, ax = plt.subplots()
-    scatter = ax.scatter(X_pca[:, 0], X_pca[:, 1], c=y, cmap='coolwarm', alpha=0.5)
-    legend = ax.legend(*scatter.legend_elements(), title="Classes")
-    ax.add_artist(legend)
-    input_pca = pca.transform(input_scaled)
-    ax.scatter(input_pca[0, 0], input_pca[0, 1], c='red', s=100, label='Your Firm')
-    ax.set_title('PCA Plot of Firms with Nearest Neighbors')
-    ax.legend()
-    st.pyplot(fig)
+#     # Plotting
+#     pca = PCA(n_components=2)
+#     X_pca = pca.fit_transform(X_scaled)
+#     fig, ax = plt.subplots()
+#     scatter = ax.scatter(X_pca[:, 0], X_pca[:, 1], c=y, cmap='coolwarm', alpha=0.5)
+#     legend = ax.legend(*scatter.legend_elements(), title="Classes")
+#     ax.add_artist(legend)
+#     input_pca = pca.transform(input_scaled)
+#     ax.scatter(input_pca[0, 0], input_pca[0, 1], c='red', s=100, label='Your Firm')
+#     ax.set_title('PCA Plot of Firms with Nearest Neighbors')
+#     ax.legend()
+#     st.pyplot(fig)
 
 
 
