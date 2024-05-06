@@ -1,44 +1,72 @@
+
 import streamlit as st
 import pandas as pd
+from sklearn.neighbors import NearestNeighbors
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
-import os
-import zipfile
+import numpy as np
 
-# Define a function to load data
-@st.cache  # Use caching to load the data only once
-def load_data():
-    file_path = "inputs/master_filtered_data.csv"
-    if os.path.exists(file_path):
-        data = pd.read_csv(file_path)
-        return data
-    else:
-        raise FileNotFoundError(f"The file {file_path} does not exist.")
-data = load_data()
+# Load data
+merged_df = pd.read_csv('inputs/master_filtered_data.csv', low_memory=False)
+master_merge = pd.read_csv('inputs/masterMerge.csv')
 
-# Dashboard setup
-st.title('FIN 377-Final Project-Team 12: SPAC and IPO Dashboard')
-st.write('This dashboard visualizes data for young firms from the CCM dataset.')
+# Define features and target
+features = ['revt', 'cshi', 'naicsh']  # Ensure these column names exist in merged_df
+target = 'IS_SPAC'  # Ensure this column exists in merged_df
 
+# Clean data
+data_clean = merged_df.dropna(subset=features + [target])
 
-# Use columns for layout
-col1, col2 = st.columns((1, 2))
+# Separate features and target
+X = data_clean[features]
+y = data_clean[target]
 
-# Inputs on the left column
-with col1:
-    st.subheader("User Inputs")
-    year = st.number_input('Year', min_value=2000, max_value=2018, value=2018)
-    #industry_sector = st.selectbox('Industry Sector', options=data['Industry'].unique())
-    market_cap = st.number_input('Market Capitalization', min_value=0, step=1, format='%d')
-    profitability_metrics = st.multiselect('Profitability Metrics', options=['ROA', 'ROE'])
-    funding_needs = st.number_input('Funding Needs', min_value=0, step=1, format='%d')
-    revenue_growth_rate = st.slider('Revenue Growth Rate', min_value=-100.0, max_value=100.0, value=0.0)
+# Feature scaling
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
 
-# Plots on the right column
-with col2:
-    st.subheader("Data Visualizations")
-    if st.button('Show Plots'):
-        fig, ax = plt.subplots()
-        data['mkvalt'].plot(kind='line')
-        plt.title('Histogram of Market Cap')
-        st.pyplot(fig)
+# Train nearest neighbors model
+n_neighbors = 5
+nn = NearestNeighbors(n_neighbors=n_neighbors)
+nn.fit(X_scaled)
+
+# Streamlit app setup
+st.title('SPAC and IPO Classifier')
+st.sidebar.subheader('User Inputs')
+
+# User inputs
+user_inputs = {}
+for feature in features:
+    user_inputs[feature] = st.sidebar.number_input(f'Enter {feature}', value=X[feature].mean())
+
+# Predict and find nearest neighbors
+input_data = np.array([user_inputs[feature] for feature in features]).reshape(1, -1)
+input_scaled = scaler.transform(input_data)
+distances, indices = nn.kneighbors(input_scaled)
+
+# Display nearest neighbors
+st.write('### Results:')
+st.write('Based on your inputs, your firm is most similar to the following firms:')
+for i, idx in enumerate(indices[0]):
+    st.write(f"Firm {i + 1}: {master_merge.iloc[idx]['tic']}")
+predicted_spac = 'SPAC' if y.iloc[indices[0]].mean() > 0.5 else 'not a SPAC'
+st.write(f'Based on the characteristics of these firms, your firm is most likely {predicted_spac}')
+
+# Plotting
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X_scaled)
+fig, ax = plt.subplots()
+scatter = ax.scatter(X_pca[:, 0], X_pca[:, 1], c=y, cmap='coolwarm', alpha=0.5)
+legend = ax.legend(*scatter.legend_elements(), title="Classes")
+ax.add_artist(legend)
+input_pca = pca.transform(input_scaled)
+ax.scatter(input_pca[0, 0], input_pca[0, 1], c='red', s=100, label='Your Firm')
+ax.set_title('PCA Plot of Firms with Nearest Neighbors')
+ax.legend()
+st.pyplot(fig)
+
 
