@@ -125,16 +125,30 @@ with tab2:
     grid = np.c_[grid_x.ravel(), grid_y.ravel()]
     probs = model.predict_proba(grid)[:, 1].reshape(grid_x.shape)
 
+    # # Plotting
+    # fig, ax = plt.subplots()
+    # contour = ax.contourf(grid_x, grid_y, probs, 25, cmap="RdBu", vmin=0, vmax=1)
+    # ax_c = fig.colorbar(contour)
+    # ax_c.set_label('P(SPAC)')
+    # # ax_c.set_ticks([0, 0.5, 1])
+    # ticks = np.linspace(0, 1, 6)
+    # ax_c.set_ticks(ticks)
+    # ax_c.ax.set_yticklabels(['0%', '20%', '40%', '60%', '80%', '100%'], va='baseline') 
+
+    # # Plot scatter with the selected features
+    # ax.scatter(df[x_feature], df[y_feature], c=df[target], cmap="RdBu", edgecolor="white", lw=0.5)
+
+    # plt.title('Logistic Regression with Interactive User Inputs')
+    # plt.xlabel(x_feature)
+    # plt.ylabel(y_feature)
+    # plt.gca().set_facecolor('white')
+    # plt.tight_layout()
+    # st.pyplot(fig)
     # Plotting
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(8, 6))  # Adjust the figure size as needed
     contour = ax.contourf(grid_x, grid_y, probs, 25, cmap="RdBu", vmin=0, vmax=1)
     ax_c = fig.colorbar(contour)
     ax_c.set_label('P(SPAC)')
-    # ax_c.set_ticks([0, 0.5, 1])
-    ticks = np.linspace(0, 1, 6)
-    ax_c.set_ticks(ticks)
-    ax_c.ax.set_yticklabels(['0%', '20%', '40%', '60%', '80%', '100%'], va='baseline') 
-
     # Plot scatter with the selected features
     ax.scatter(df[x_feature], df[y_feature], c=df[target], cmap="RdBu", edgecolor="white", lw=0.5)
 
@@ -142,6 +156,12 @@ with tab2:
     plt.xlabel(x_feature)
     plt.ylabel(y_feature)
     plt.gca().set_facecolor('white')
+
+    # Adjust the y-axis limits to show higher y-values
+    plt.ylim(np.min(grid_y), np.max(grid_y) * 10)  # Increase the upper limit by 10%
+
+    # Set aspect to 'auto' or adjust it as needed
+    plt.gca().set_aspect('auto')
+
     plt.tight_layout()
     st.pyplot(fig)
-
