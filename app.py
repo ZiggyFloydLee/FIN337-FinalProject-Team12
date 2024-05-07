@@ -21,7 +21,6 @@ tab1, tab2 = st.tabs(["Nearest Neighbors Classifier", "Logistic Regression Plot"
 
 with st.expander('Why we choose this topic'):
     st.write("""Given the rise in Special Acquisition Companies within recent years, we recognized the need to identify private companies that aim to go public."
-             
              """)
     
 with st.expander("Data Description"):
