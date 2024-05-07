@@ -110,7 +110,7 @@ with tab2:
 
     st.header('Logistic Regression Plot')
     # Load and preprocess data
-    df = pd.read_csv('inputs/masterMerge.csv')
+    df = pd.read_csv('inputs/master_filtered_data.csv')
     features = ['caps', 'epspi', 'naicsh', 'mkvalt', 'cshi']  # Expanded features
     target = 'IS_SPAC'
 
