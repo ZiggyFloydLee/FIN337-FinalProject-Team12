@@ -17,14 +17,23 @@ merged_df = pd.read_csv('inputs/master_filtered_data.csv', low_memory=False)
 master_merge = pd.read_csv('inputs/tickers_filtered.csv')
 
 st.title('SPAC and IPO Classifier')
-tab1, tab2 = st.tabs(["Nearest Neighbors Classifier", "Logistic Regression Plot"])
-
 with st.expander('Why we choose this topic'):
     st.write("""Given the rise in Special Acquisition Companies within recent years, we recognized the need to identify private companies that aim to go public."
-             """)
+             "This topic piqued our interest as we had seen lots of news recently about SPACs and overarching IPO market trends. We wanted to see if we could identify
+             "SPAC firms using financial metrics through predictive models like KNN and Logistic Regression.""")
     
 with st.expander("Data Description"):
-    st.write("The data we used in this project is ")
+    st.write("The data we used in this project is from [Jay Ritter's research on SPACs and IPOs](https://site.warrington.ufl.edu/ritter/), and [CCM](https://www.crsp.org/research/crsp-compustat-merged-database/)."
+             "We manually adjusted some CUSIP values for merging purposes, but the data is otherwise unchanged.")
+    
+with st.expander("How to use this dashboard"):
+    st.write("We created two interactive models for this dashboard, a KNN model and a Logistic Regression Model. With the KNN Model you can input numbers for the"
+             "5 variables by using the sidebar. Just input your values and hit enter. For the Logistic Regression Model you can use the sidebar to view the model"
+             "with different varaibles as the axes.""")
+    
+tab1, tab2 = st.tabs(["Nearest Neighbors Classifier", "Logistic Regression Plot"])
+
+
 
 with tab1:
     st.header('Nearest Neighbors Classifier')
@@ -72,7 +81,8 @@ with tab1:
     # st.write("Nearest Neighbors' Indicies:", indices)
 
     # For viewing the actual SPAC status of these neighbors
-    st.write("Nearest Neighbors' SPAC Status:")
+    st.write("Nearest Neighbors' SPAC Status:\n"
+             "\n*SPAC = 1, Non-SPAC = 0*")
     st.write(y.iloc[indices[0]].values)
 
     # Plotting
